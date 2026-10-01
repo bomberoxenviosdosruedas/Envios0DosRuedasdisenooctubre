@@ -1,0 +1,49 @@
+:root{
+/* Marca (verificado en @theme de las 12 páginas) */
+--color-brand-blue-50:#e6eefe;
+--color-brand-blue-75:#d6e4fe;
+--color-brand-blue-100:#bacefd;
+--color-brand-blue-200:#8eaffb;
+--color-brand-blue-300:#628ff9;
+--color-brand-blue-400:#3570f8; /* solo decorativo: 4.35:1 sobre blanco, no para texto */
+--color-brand-blue-500:#0950f6; /* AZUL MÁXIMO. 600-900 eliminados por regla v2 */
+--color-brand-yellow-300:#fff45c;
+--color-brand-yellow-400:#fff12e;
+--color-brand-yellow-500:#ffec01;
+--color-white:#ffffff;
+/* Alias de tinta: antes apuntaba a blue-900, ahora al máximo permitido */
+--color-brand-ink:var(--color-brand-blue-500);
+/* Neutral (verificado: #f8fafc aparece 10 veces como fondo) */
+--color-neutral-50:#f8fafc;
+/* Estados. Error verificado (text-red-500/600 en formularios). Éxito y aviso: PROPUESTOS, no aparecen en los HTML */
+--color-error-500:#ef4444;
+--color-error-600:#dc2626;
+--color-success-500:#16a34a; /* propuesto */
+--color-warning-500:#f59e0b; /* propuesto */
+/* Redes: colores de terceros (solo iconografía). Los botones sociales usan brand-blue-500 */
+--color-social-whatsapp:#25d366;
+--color-social-facebook:#1877f2; /* no usar como fondo con texto blanco: 4.23:1 */
+--color-social-instagram:#e1306c;
+/* Roles semánticos */
+--surface-page:var(--color-white);
+--surface-card:var(--color-white);
+--surface-muted:var(--color-brand-blue-50);
+--surface-invert:var(--color-brand-blue-500);
+--surface-accent:var(--color-brand-yellow-500);
+--surface-glass:rgba(255,255,255,.08);
+--text-body:var(--color-brand-blue-500);
+--text-muted:var(--color-brand-blue-500); /* sin azul más oscuro ni más claro apto; usar opacidad de contenedor, nunca de texto */
+--text-heading:var(--color-brand-blue-500);
+--text-on-invert:var(--color-white);
+--text-on-accent:var(--color-brand-blue-500); /* 4.94:1 sobre amarillo */
+--text-on-invert-muted:rgba(255,255,255,.85);
+--border-subtle:var(--color-brand-blue-100);
+--border-strong:var(--color-brand-blue-500);
+--border-on-invert:rgba(255,255,255,.15);
+--focus-ring:var(--color-brand-blue-500);
+--focus-ring-on-invert:var(--color-brand-yellow-500);
+--action-primary:var(--color-brand-yellow-500);
+--action-primary-hover:var(--color-brand-yellow-400);
+--action-secondary:var(--color-brand-blue-500);
+--action-secondary-hover:var(--color-brand-blue-50);
+}
