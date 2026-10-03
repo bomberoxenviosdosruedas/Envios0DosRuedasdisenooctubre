@@ -11,9 +11,10 @@
 <script type="text/babel" src="RedesScreen.jsx"></script>
 <script type="text/babel" src="EmpresasScreen.jsx"></script>
 <script type="text/babel" src="ContrareembolsoScreen.jsx"></script>
+<script type="text/babel" src="CotizadorScreen.jsx"></script>
 <script type="text/babel">
-const ROUTES={home:["home"],contacto:["contacto"],express:["servicio","express"],lowcost:["servicio","lowcost"],flex:["servicio","flex"],emprendedores:["emprendedores"],empresas:["empresas"],contra:["contra"],faq:["faq"],nosotros:["nosotros"],redes:["redes"]};
-const LABELS=[[/^Inicio$/,"home"],[/Todos los Servicios|Express/,"express"],[/LowCost/,"lowcost"],[/Flex/,"flex"],[/Cobro/,"contra"],[/Cuenta Corriente|Cuenta corriente/,"empresas"],[/E-commerce|Depósito|Emprendedores|Fulfillment|Cotizador/,"emprendedores"],[/Sobre Nosotros|Cobertura/,"nosotros"],[/Preguntas/,"faq"],[/Redes/,"redes"],[/Contacto|Cotiz|Privacidad|Términos/,"contacto"],[/Servicios/,"express"]];
+const ROUTES={home:["home"],contacto:["contacto"],express:["servicio","express"],lowcost:["servicio","lowcost"],flex:["servicio","flex"],emprendedores:["emprendedores"],empresas:["empresas"],contra:["contra"],faq:["faq"],nosotros:["nosotros"],redes:["redes"],cotizador:["cotizador"]};
+const LABELS=[[/^Inicio$/,"home"],[/Todos los Servicios|Express/,"express"],[/LowCost/,"lowcost"],[/Flex/,"flex"],[/Cobro/,"contra"],[/Cuenta Corriente|Cuenta corriente/,"empresas"],[/E-commerce|Depósito|Emprendedores|Fulfillment|Cotizador/,"emprendedores"],[/Sobre Nosotros|Cobertura/,"nosotros"],[/Preguntas/,"faq"],[/Redes/,"redes"],[/Contacto|Cotiz|Privacidad|Términos/,"contacto"],[/Servicios/,"express"],[/Cotizador|Cotizá/,"cotizador"]];
 function App(){
   const [route,setRoute]=React.useState(()=>{const r=localStorage.getItem('eds-route');return ROUTES[r]?r:'home'});
   const [compact,setCompact]=React.useState(false);
@@ -23,12 +24,12 @@ function App(){
   const nav=(item)=>{const l=item.label||'';const m=LABELS.find(([re])=>re.test(l));go(m?m[1]:'home')};
   const [kind,svc]=ROUTES[route];
   const props={go,service:svc};
-  const Screen={home:HomeScreen,contacto:ContactoScreen,servicio:ServicioScreen,emprendedores:EmprendedoresScreen,empresas:EmpresasScreen,contra:ContrareembolsoScreen,faq:FaqScreen,nosotros:NosotrosScreen,redes:RedesScreen}[kind];
+  const Screen={home:HomeScreen,contacto:ContactoScreen,servicio:ServicioScreen,emprendedores:EmprendedoresScreen,empresas:EmpresasScreen,contra:ContrareembolsoScreen,faq:FaqScreen,nosotros:NosotrosScreen,redes:RedesScreen,cotizador:CotizadorScreen}[kind];
   return <>
     <SkipLink href="#main" />
-    <SiteHeader logoSrc="../../assets/logo-envios-simplified.webp" compact={compact} onNavigate={nav} onCta={()=>go('contacto')} />
+    <OptimizedHeader logoSrc="../../assets/logo-envios-simplified.webp" compact={compact} onNavigate={nav} onCta={()=>go('contacto')} />
     <main id="main" tabIndex={-1}><Screen {...props}/></main>
-    <SiteFooter onNavigate={nav} onCta={()=>go('contacto')} social={<Social/>}/>
+    <OptimizedFooter onNavigate={nav} onCta={()=>go('contacto')} social={<Social/>}/>
   </>;
 }
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);

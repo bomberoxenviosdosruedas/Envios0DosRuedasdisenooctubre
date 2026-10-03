@@ -1,0 +1,22 @@
+<!-- @dsCard group="Components" viewport="700x900" name="Core: Button, Badge, Input, BezelCard" subtitle="CTA único con variant × surface × size, estados; badges; campos; tarjeta bisel" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box}.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:12px}.dark{background:var(--color-brand-blue-500);padding:16px;border-radius:16px}.lbl{font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;color:var(--color-brand-blue-500);margin:16px 0 8px}</style></head>
+<body><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script><script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script><script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script><script src="../../_ds_bundle.js"></script><div id="root"></div>
+<script type="text/babel">
+const { Button, Badge, Input, BezelCard } = window.EnvOsDosRuedasDesignSystem_ced708;
+const Wa = () => <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Z"/></svg>;
+function App(){ return <div>
+  <div className="lbl">Button · surface light · sm 44 / md 48 / lg 52</div>
+  <div className="row"><Button size="sm">Cotizá tu envío</Button><Button size="md">Cotizá tu envío</Button><Button size="lg">Cotizá tu envío</Button></div>
+  <div className="row"><Button variant="secondary">Ver servicios</Button><Button variant="ghost">Inicio</Button><Button variant="social" icon={<Wa/>} external href="#">WhatsApp</Button></div>
+  <div className="row"><Button disabled>Deshabilitado</Button><Button loading>Enviando</Button><Button external href="#">Abrir mapa</Button><Button hideIcon>Sin icono</Button></div>
+  <div className="lbl">Button · surface dark</div>
+  <div className="dark row" style={{marginBottom:12}}><Button surface="dark">Cotizá tu envío</Button><Button variant="secondary" surface="dark">Ver servicios</Button><Button variant="ghost" surface="dark">Servicios</Button><Button variant="social" surface="dark" icon={<Wa/>}>WhatsApp</Button><Button surface="dark" loading>Enviando</Button></div>
+  <div className="lbl">Badge</div>
+  <div className="row"><Badge>Conexión directa</Badge><Badge tone="invert">Nuevo</Badge><Badge tone="muted" rotate={false} size="sm">Cotización inmediata</Badge><Badge tone="muted" mono rotate={false} size="sm">Atención &lt; 2 min</Badge><span className="dark" style={{padding:8,borderRadius:999}}><Badge tone="outline" rotate={false}>Base central</Badge></span></div>
+  <div className="lbl">Input / Select / error</div>
+  <div className="row" style={{alignItems:"flex-start"}}><div style={{width:200}}><Input label="Tu nombre" required placeholder="Nombre y apellido"/></div><div style={{width:200}}><Input as="select" label="Volumen mensual" defaultValue=""><option value="" disabled>Elegí</option><option>1-50</option><option>50-200</option></Input></div><div style={{width:200}}><Input label="Teléfono" defaultValue="223" error="Ingresá un número válido"/></div></div>
+  <div className="lbl">BezelCard · light / dark / accent</div>
+  <div className="row" style={{alignItems:"stretch"}}><BezelCard style={{width:200}}><p style={{margin:0,font:"var(--type-sub)",fontSize:20}}>Envíos Express</p><p style={{margin:"8px 0 0",font:"var(--type-body-sm)"}}>Franja de 3 hs a elección.</p></BezelCard><BezelCard tone="dark" style={{width:200}}><p style={{margin:0,font:"var(--type-sub)",fontSize:20}}>Base central</p><p style={{margin:"8px 0 0",font:"var(--type-data)",color:"rgba(255,255,255,.85)"}}>Friuli 1972 · MDQ</p></BezelCard><BezelCard tone="accent" style={{width:200}}><p style={{margin:0,font:"var(--type-sub)",fontSize:20}}>Plan destacado</p><p style={{margin:"8px 0 0",font:"var(--type-body-sm)"}}>DropOFF 20% off.</p></BezelCard></div>
+</div>; }
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script></body></html>
