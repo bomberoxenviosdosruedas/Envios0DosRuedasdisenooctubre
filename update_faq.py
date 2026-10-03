@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+import os
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\nosotros-preguntas-frecuentes.html"
+
+content = """<!DOCTYPE html>
 <html lang="es" class="scroll-smooth" data-scroll-behavior="smooth">
 <head>
 <meta charset="utf-8">
@@ -102,4 +106,9 @@
   ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 </body>
-</html>
+</html>"""
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\nosotros-preguntas-frecuentes.html"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(content)
+print("Done")

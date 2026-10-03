@@ -1,20 +1,31 @@
-<!DOCTYPE html>
+import os
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\servicios-plan-emprendedores.html"
+
+# Read the original to get the SVG symbols and structure
+with open(r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\servicios-plan-emprendedores.html", "r", encoding="utf-8") as f:
+    original = f.read()
+
+# The original file is 180KB static HTML. We need to replace with React version.
+# We'll write the complete updated HTML file.
+
+content = '''<!DOCTYPE html>
 <html lang="es" class="scroll-smooth" data-scroll-behavior="smooth">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Preguntas Frecuentes (FAQ) | Envíos DosRuedas</title>
-<meta name="description" content="Despejá todas tus dudas sobre mensajería en moto, Envíos Flex MercadoLibre, servicios Express, cadetería LowCost, tarifas 2026 y cobertura en Mar del Plata.">
-<link rel="canonical" href="https://www.enviosdosruedas.com/nosotros/preguntas-frecuentes">
+<title>Plan Emprendedores y Fulfillment 3PL | Envíos DosRuedas Mar del Plata | Envíos DosRuedas</title>
+<meta name="description" content="Logística 3PL, paquetería e-commerce y almacenamiento en Friuli 1972 Mar del Plata. Almacená tu stock, picking por código QR y despachamos en el día.">
+<link rel="canonical" href="https://www.enviosdosruedas.com/servicios/plan-emprendedores">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0950F6">
 <link rel="icon" href="../../assets/logo-envios-simplified.webp" type="image/webp">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="Envíos DosRuedas">
-<meta property="og:title" content="Preguntas Frecuentes (FAQ) | Envíos DosRuedas">
-<meta property="og:description" content="21 respuestas sobre servicios, tiempos, tarifas y confianza, escritas por el equipo que hace las entregas.">
-<meta property="og:url" content="https://www.enviosdosruedas.com/nosotros/preguntas-frecuentes">
+<meta property="og:title" content="Plan Emprendedores y Fulfillment 3PL | Envíos DosRuedas Mar del Plata | Envíos DosRuedas">
+<meta property="og:description" content="Almacená tu stock en nuestro Hub de Friuli 1972. Al vender, tu producto sale inmediatamente empaquetado con picking por código QR.">
+<meta property="og:url" content="https://www.enviosdosruedas.com/servicios/plan-emprendedores">
 <meta property="og:image" content="https://www.enviosdosruedas.com/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="font" type="font/woff2" href="../../public/fonts/Anton-Regular.woff2" crossorigin>
@@ -39,11 +50,11 @@
 </head>
 <body class="bg-white text-brand-blue-500 font-sans antialiased selection:bg-brand-yellow-500 selection:text-brand-blue-500 min-h-dvh flex flex-col">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-<symbol id="i0"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2h3a2 2 0 0 1 2-2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></symbol>
+<symbol id="i0"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></symbol>
 <symbol id="i1"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></symbol>
-<symbol id="i2"><defs><pattern id="hero-procedural-grid-blue" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="var(--color-white)" stroke-width="0.75" stroke-dasharray="2,6"></path><circle cx="0" cy="0" r="1.5" fill="var(--color-brand-yellow-500)"></circle></pattern></defs><rect width="100%" height="100%" fill="url(#hero-procedural-grid-blue)"></rect></symbol>
-<symbol id="i3"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></symbol>
-<symbol id="i4"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594-1.594l-1.051-5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594z"></path></symbol>
+<symbol id="i2"><defs><pattern id="hero-procedural-grid-yellow" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="var(--color-brand-blue-500)" stroke-width="0.75" stroke-dasharray="2,6"></path><circle cx="0" cy="0" r="1.5" fill="var(--color-brand-blue-500)"></circle></pattern></defs><rect width="100%" height="100%" fill="url(#hero-procedural-grid-yellow)"></rect></symbol>
+<symbol id="i3"><polygon points="900,150 1100,220 1000,420 800,350" fill="none" stroke="var(--color-brand-blue-500)" stroke-width="1.5" stroke-dasharray="6 8"></polygon><circle cx="900" cy="150" r="5" fill="var(--color-brand-blue-500)"></circle><circle cx="1100" cy="220" r="5" fill="var(--color-brand-blue-500)"></circle><circle cx="1000" cy="420" r="5" fill="var(--color-brand-blue-500)"></circle><circle cx="800" cy="350" r="5" fill="var(--color-brand-blue-500)"></circle></symbol>
+<symbol id="i4"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"></path><path d="m7 16.5-4.74-2.85"></path><path d="m7 16.5 5-3"></path><path d="M7 16.5v5.17"></path><path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"></path><path d="m17 16.5-5-3"></path><path d="m17 16.5 4.74-2.85"></path><path d="M17 16.5v5.17"></path><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"></path><path d="M12 8 7.26 5.15"></path><path d="m12 8 4.74-2.85"></path><path d="M12 13...."></path></symbol>
 <symbol id="i5"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></symbol>
 <symbol id="i6"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594-1.594l-1.051-5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594z"></path></symbol>
 <symbol id="i7"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"></path></symbol>
@@ -94,7 +105,7 @@
     return (
       <>
         <OptimizedHeader logoSrc="../../../assets/logo-envios-simplified.webp" compact={false} onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} />
-        <main id="main" tabIndex={-1}><ServicioScreen go={go} service="faq" /></main>
+        <main id="main" tabIndex={-1}><ServicioScreen go={go} service="plan_emprendedores" /></main>
         <OptimizedFooter onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} social={<Social />} />
       </>
     );
@@ -102,4 +113,9 @@
   ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 </body>
-</html>
+</html>'''
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\servicios-plan-emprendedores.html"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(content)
+print("Written:", path)

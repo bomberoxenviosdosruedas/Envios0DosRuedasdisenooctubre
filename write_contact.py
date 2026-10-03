@@ -1,20 +1,24 @@
-<!DOCTYPE html>
+import os
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\contacto.html"
+
+content = """<!DOCTYPE html>
 <html lang="es" class="scroll-smooth" data-scroll-behavior="smooth">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Preguntas Frecuentes (FAQ) | Envíos DosRuedas</title>
-<meta name="description" content="Despejá todas tus dudas sobre mensajería en moto, Envíos Flex MercadoLibre, servicios Express, cadetería LowCost, tarifas 2026 y cobertura en Mar del Plata.">
-<link rel="canonical" href="https://www.enviosdosruedas.com/nosotros/preguntas-frecuentes">
+<title>Contacto y Base Central | Envíos DosRuedas</title>
+<meta name="description" content="Contacto con el equipo comercial y logística urbana de Envíos DosRuedas en Mar del Plata. Cotizaciones inmediatas por WhatsApp y atención personalizada.">
+<link rel="canonical" href="https://www.enviosdosruedas.com/contacto">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0950F6">
 <link rel="icon" href="../../assets/logo-envios-simplified.webp" type="image/webp">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="Envíos DosRuedas">
-<meta property="og:title" content="Preguntas Frecuentes (FAQ) | Envíos DosRuedas">
-<meta property="og:description" content="21 respuestas sobre servicios, tiempos, tarifas y confianza, escritas por el equipo que hace las entregas.">
-<meta property="og:url" content="https://www.enviosdosruedas.com/nosotros/preguntas-frecuentes">
+<meta property="og:title" content="Escribinos y te respondemos al toque | Envíos DosRuedas">
+<meta property="og:description" content="Contanos qué necesitás mover y te cotizamos al toque. Atendemos desde la base central de Friuli 1972, en Mar del Plata, con flota propia de motos y cero tercerización.">
+<meta property="og:url" content="https://www.enviosdosruedas.com/contacto">
 <meta property="og:image" content="https://www.enviosdosruedas.com/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" as="font" type="font/woff2" href="../../public/fonts/Anton-Regular.woff2" crossorigin>
@@ -94,7 +98,7 @@
     return (
       <>
         <OptimizedHeader logoSrc="../../../assets/logo-envios-simplified.webp" compact={false} onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} />
-        <main id="main" tabIndex={-1}><ServicioScreen go={go} service="faq" /></main>
+        <main id="main" tabIndex={-1}><ContactFormBlock go={go} /></main>
         <OptimizedFooter onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} social={<Social />} />
       </>
     );
@@ -102,4 +106,9 @@
   ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 </body>
-</html>
+</html>"""
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\source\contacto.html"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(content)
+print("Done")
