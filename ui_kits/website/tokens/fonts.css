@@ -1,0 +1,35 @@
+/* Self-hosted WOFF2 fonts (converted from uploads/ TTFs). Google Fonts import removed. */
+/* Anton & Bebas Neue: only weight 400 exists. Outfit & Geist Mono: variable 100..900. */
+/* font-display: swap ensures text renders immediately with fallback while font loads. */
+
+@font-face {
+  font-family: "Anton";
+  src: url("/fonts/Anton-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/fonts/Outfit-VariableFont_wght.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono-VariableFont_wght.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

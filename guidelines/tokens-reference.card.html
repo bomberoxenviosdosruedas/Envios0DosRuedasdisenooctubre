@@ -1,0 +1,133 @@
+<!-- @dsCard group="Tokens" viewport="700x500" name="Referencia Completa de Tokens" subtitle="Consolidado de todos los tokens CSS (radius, spacing, shadows, typography, fonts, colors, motion)" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box;font-family:var(--font-sans);color:var(--color-brand-blue-500)}h2{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px}.section{margin-bottom:24px}h3{font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;margin:0 0 8px;color:var(--color-brand-brand-yellow-500)}table{width:100%;border-collapse:collapse;font:400 11px/1.5 var(--font-mono)}th,td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--color-brand-blue-100)}th{font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;color:var(--color-brand-blue-500)}.mono{font:400 11px/1.3 var(--font-mono)}.badge{display:inline-block;font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;padding:2px 6px;border-radius:999px;background:var(--color-brand-yellow-500);color:var(--color-brand-blue-500)}</style></head><body>
+<h2>Referencia Completa de Tokens</h2>
+<p style="margin:0 0 16px;font-size:13px;color:var(--color-brand-blue-500)">Todos los tokens definidos en <code>tokens/*.css</code>. Único fuente de verdad.</p>
+
+<div class="section"><h3>Radius</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Uso</th></tr></thead><tbody>
+<tr><td>--radius-sm</td><td>6px</td><td>chips pequeños</td></tr><tr><td>--radius-md</td><td>8px</td><td>badges, botones pequeños</td></tr><tr><td>--radius-lg</td><td>12px</td><td>cards, dropdowns</td></tr><tr><td>--radius-xl</td><td>16px</td><td>BezelCard outer, modales</td></tr><tr><td>--radius-2xl</td><td>24px</td><td>modales grandes, hero</td></tr><tr><tr><td>--radius-3xl</td><td>32px</td><td>hero sections</td></tr><tr><td>--radius-full</td><td>9999px</td><td>pills, botones, badges</td></tr>
+<tr><td><strong>--radius-card</strong></td><td><strong>16px</strong></td><td>DoubleBezelCard outer</td></tr>
+<tr><td><strong>--radius-card-inner</strong></td><td><strong>12px</strong></td><td>DoubleBezelCard inner</td></tr>
+<tr><td><strong>--radius-control</strong></td><td><strong>12px</strong></td><td>Input, Select, Textarea</td></tr>
+<tr><td><strong>--radius-button</strong></td><td><strong>9999px</strong></td><td>Botones, Badges, Pills (=== --radius-full)</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Spacing</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Uso</th></tr></thead><tbody>
+<tr><td>--spacing</td><td>0.25rem</td><td>Base Tailwind (4px)</td></tr>
+<tr><td>--space-0-5 .. --space-24</td><td>0.125rem .. 6rem</td><td>Escala completa (0.5→24)</td></tr>
+<tr><td>--container-page</td><td>80rem</td><td>max-w-7xl + px-4/sm:px-6/lg:px-8</td></tr>
+<tr><td>--page-gutter / -sm / -lg</td><td>1rem / 1.5rem / 2rem</td><td>Gutters responsive</td></tr>
+<tr><td>--section-y / -sm / -lg</td><td>3rem / 4rem / 6rem</td><td>Padding vertical secciones</td></tr>
+<tr><td>--header-height</td><td>72px</td><td>pt-[72px] en main</td></tr>
+<tr><td><strong>--control-sm</strong></td><td><strong>44px</strong></td><td>Botón sm, Input height</td></tr>
+<tr><td><strong>--control-md</strong></td><td><strong>48px</strong></td><td>Botón md</td></tr>
+<tr><td><strong>--control-lg</strong></td><td><strong>52px</strong></td><td>Botón lg</td></tr>
+<tr><td><strong>--tap-min</strong></td><td><strong>44px</strong></td><td>Mínimo absoluto WCAG</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Shadows</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Uso</th></tr></thead><tbody>
+<tr><td>--shadow-xs</td><td>0 1px 2px rgba(9,80,246,.04)</td><td>sutil</td></tr>
+<tr><td>--shadow-sm</td><td>0 2px 4px rgba(9,80,246,.06), 0 1px 2px rgba(9,80,246,.03)</td><td>cards base</td></tr>
+<tr><td>--shadow-md</td><td>0 4px 8px rgba(9,80,246,.08), 0 2px 4px rgba(9,80,246,.04)</td><td>cards hover</td></tr>
+<tr><td>--shadow-lg</td><td>0 8px 16px rgba(9,80,246,.10), 0 4px 8px rgba(9,80,246,.06)</td><td>modales</td></tr>
+<tr><td>--shadow-xl</td><td>0 16px 32px rgba(9,80,246,.12), 0 8px 16px rgba(9,80,246,.08)</td><td>dropdowns</td></tr>
+<tr><td>--shadow-2xl</td><td>0 25px 50px -12px rgba(9,80,246,.25)</td><td>modales grandes</td></tr>
+<tr><td>--shadow-elevated</td><td>0 16px 40px rgba(9,80,246,.18)</td><td>hover lift</td></tr>
+<tr><td>--shadow-float</td><td>0 25px 50px -12px rgba(9,80,246,.15)</td><td>BezelCard base</td></tr>
+<tr><td>--shadow-antigravity-deep</td><td>0 24px 64px rgba(9,80,246,.22)</td><td>hover lift profundo</td></tr>
+<tr><td><strong>--shadow-inner</strong></td><td><strong>inset 0 2px 4px rgba(9,80,246,.06)</strong></td><td>BezelCard inner panel</td></tr>
+<tr><td>--shadow-accent-sm</td><td>0 2px 4px rgba(255,236,1,.15)</td><td>CTA amarillo base</td></tr>
+<tr><td>--shadow-accent-md</td><td>0 4px 8px rgba(255,236,1,.20)</td><td>CTA amarillo hover</td></tr>
+<tr><td>--shadow-cta-glow</td><td>0 0 28px rgba(255,236,1,.45), 0 8px 24px rgba(9,80,246,.18)</td><td>CTA primario hover</td></tr>
+<tr><td>--shadow-glow-yellow</td><td>0 0 25px rgba(255,241,46,.45)</td><td>glow amarillo</td></tr>
+<tr><td><strong>--shadow-brutal</strong></td><td><strong>3px 3px 0 var(--color-brand-blue-500)</strong></td><td>Estilo brutalista (hover lift)</td></tr>
+<tr><td><strong>--shadow-brutal-sm</strong></td><td><strong>2px 2px 0 var(--color-brand-blue-500)</strong></td><td>Versión sutil</td></tr>
+<tr><td>--shadow-hover-lift</td><td>var(--shadow-elevated)</td><td>Alias (era indefinida)</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Typography</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Uso</th></tr></thead><tbody>
+<tr><td><strong>--font-display</strong></td><td><strong>"Anton",Impact,sans-serif</strong></td><td>Display headlines (Anton 400 only)</td></tr>
+<tr><td><strong>--font-subheading</strong></td><td><strong>"Bebas Neue",Impact,sans-serif</strong></td><td>Subheadings, nav, botones (Bebas 400)</td></tr>
+<tr><td><strong>--font-sans</strong></td><td><strong>"Outfit","IBM Plex Sans",ui-sans-serif,system-ui,sans-serif</strong></td><td>Body text (Outfit variable 100-900)</td></tr>
+<tr><td><strong>--font-mono</strong></td><td><strong>"Geist Mono",ui-monospace,monospace</strong></td><td>Datos, precios, teléfonos (Geist Mono variable 100-900)</td></tr>
+<tr><td>--text-2xs</td><td>0.625rem (10px)</td><td>EXISTE PERO NO USAR (piso 12px)</td></tr>
+<tr><td>--text-xs</td><td>0.75rem (12px)</td><td>Labels, badges, mono small</td></tr>
+<tr><td>--text-sm</td><td>0.875rem (14px)</td><td>Body small, form inputs</td></tr>
+<tr><td>--text-base</td><td>1rem (16px)</td><td>Body default</td></tr>
+<tr><td>--text-lg</td><td>1.125rem (18px)</td><td>Lead text</td></tr>
+<tr><td>--text-xl</td><td>1.25rem (20px)</td><td>Subheadings</td></tr>
+<tr><td>--text-2xl</td><td>1.5rem (24px)</td><td>Card titles</td></tr>
+<tr><td>--text-3xl</td><td>1.875rem (30px)</td><td>Section headings</td></tr>
+<tr><td>--text-4xl</td><td>2.25rem (36px)</td><td>Hero H2</td></tr>
+<tr><td>--text-5xl</td><td>3rem (48px)</td><td>Hero H1 small</td></tr>
+<tr><td>--text-6xl</td><td>3.75rem (60px)</td><td>Hero H1 medium</td></tr>
+<tr><td>--text-7xl</td><td>4.5rem (72px)</td><td>Hero H1 large</td></tr>
+<tr><td><strong>--type-h1</strong></td><td><strong>400 clamp(2.25rem,6vw,4.5rem)/var(--leading-display) var(--font-display)</strong></td><td>Hero H1</td></tr>
+<tr><td><strong>--type-h2</strong></td><td><strong>400 clamp(1.875rem,4vw,3rem)/1.1 var(--font-display)</strong></td><td>Section H2</td></tr>
+<tr><td><strong>--type-h3</strong></td><td><strong>400 1.5rem/1.3333 var(--font-display)</strong></td><td>Card titles</td></tr>
+<tr><td><strong>--type-sub</strong></td><td><strong>400 1rem/1 var(--font-subheading)</strong></td><td>Subheadings, nav, botones</td></tr>
+<tr><td><strong>--type-label</strong></td><td><strong>400 .75rem/1.3333 var(--font-subheading)</strong></td><td>Labels, eyebrows</td></tr>
+<tr><td><strong>--type-body</strong></td><td><strong>400 1rem/1.625 var(--font-sans)</strong></td><td>Body text</td></tr>
+<tr><td><strong>--type-body-sm</strong></td><td><strong>400 .875rem/1.625 var(--font-sans)</strong></td><td>Body small</td></tr>
+<tr><td><strong>--type-data</strong></td><td><strong>400 .875rem/1.4286 var(--font-mono)</strong></td><td>Datos, precios, teléfonos</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Fonts (Self-hosted WOFF2)</h3><table><thead><tr><th>Archivo</th><th>Familia</th><th>Peso</th><th>Formato</th></tr></thead><tbody>
+<tr><td>Anton-Regular.woff2</td><td>Anton</td><td>400</td><td>woff2</td></tr>
+<tr><td>BebasNeue-Regular.woff2</td><td>Bebas Neue</td><td>400</td><td>woff2</td></tr>
+<tr><td>Outfit-VariableFont_wght.woff2</td><td>Outfit</td><td>100-900</td><td>woff2-variations</td></tr>
+<tr><td>GeistMono-VariableFont_wght.woff2</td><td>Geist Mono</td><td>100-900</td><td>woff2-variations</td></tr>
+</tbody></table>
+<p class="mono">En tokens/fonts.css: @font-face con font-display: swap. NO Google Fonts.</p></div>
+
+<div class="section"><h3>Colors</h3><table><thead><tr><th>Token</th><th>Hex</th><th>Rol</th></tr></thead><tbody>
+<tr><td>--color-brand-blue-500</td><td>#0950F6</td><td>Azul máximo: texto, bordes fuertes, fondos invertidos, sombras, focus (claro)</td></tr>
+<tr><td>--color-brand-blue-400</td><td>#3570F8</td><td>Solo decorativo (anillos, hover borde). 4.35:1 sobre blanco ⇒ nunca texto chico</td></tr>
+<tr><td>--color-brand-blue-50..300</td><td>#E6EEFE..#628FF9</td><td>Fondos suaves, bordes, bezel, hover secundario</td></tr>
+<tr><td>--color-brand-yellow-500</td><td>#FFEC01</td><td>Acción primaria, acentos, texto sobre azul, focus (oscuro)</td></tr>
+<tr><td>--color-brand-yellow-400</td><td>#FFF12E</td><td>Hover primario</td></tr>
+<tr><td>--color-brand-yellow-300</td><td>#FFF45C</td><td>Declarado; 1 uso</td></tr>
+<tr><td>--color-white</td><td>#FFFFFF</td><td>Fondo página, texto sobre azul</td></tr>
+<tr><td>--color-neutral-50</td><td>#F8FAFC</td><td>Fondo alternativo (10 usos)</td></tr>
+<tr><td>--color-error-500</td><td>#EF4444</td><td>Asterisco requerido</td></tr>
+<tr><td>--color-error-600</td><td>#DC2626</td><td>Texto error (4.83:1)</td></tr>
+<tr><td>--color-success-500</td><td>#16A34A</td><td>Solo ícono/borde (propuesto)</td></tr>
+<tr><td>--color-warning-500</td><td>#F59E0B</td><td>Solo ícono/borde (propuesto)</td></tr>
+<tr><td>--color-social-whatsapp</td><td>#25D366</td><td>Solo iconografía</td></tr>
+<tr><td>--color-social-instagram</td><td>#E1306C</td><td>Solo iconografía</td></tr>
+<tr><td>--color-social-facebook</td><td>#1877F2</td><td>Solo iconografía</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Motion</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Uso</th></tr></thead><tbody>
+<tr><td>--animate-marquee-left</td><td>marquee-left 30s linear infinite</td><td>Logos carousel</td></tr>
+<tr><td>--animate-float-slow</td><td>float-slow 6s ease-in-out infinite alternate</td><td>Hero blobs</td></tr>
+<tr><td>--animate-floaty</td><td>floaty 5s ease-in-out infinite alternate-reverse</td><td>Hero blobs</td></tr>
+<tr><td>--animate-radar</td><td>radar 6s linear infinite</td><td>Radar sweep</td></tr>
+<tr><td>--animate-shuttle</td><td>shuttle 5s cubic-bezier(.16,1,.3,1) infinite alternate</td><td>Moto shuttle</td></tr>
+<tr><td>--animate-draw</td><td>draw 2.4s ease-out infinite</td><td>Radar rings stroke-dashoffset</td></tr>
+<tr><td>--animate-pulse-ring</td><td>pulse-ring 3.2s cubic-bezier(.16,1,.3,1) infinite</td><td>Pulse rings</td></tr>
+<tr><td>--animate-roundtrip</td><td>roundtrip 4.8s cubic-bezier(.16,1,.3,1) infinite</td><td>Roundtrip moto</td></tr>
+<tr><td>--ease-spring</td><td>cubic-bezier(0.16, 1, 0.3, 1)</td><td>CTA .25s, bezel .3s, carrusel .6s</td></tr>
+<tr><td>--ease-default</td><td>cubic-bezier(0.4, 0, 0.2, 1)</td><td>Transiciones base</td></tr>
+<tr><td>--duration-cta</td><td>0.25s</td><td>CTA hover/tap</td></tr>
+<tr><td>--duration-base</td><td>0.2s</td><td>Transiciones base</td></tr>
+<tr><td>--duration-slow</td><td>0.3s</td><td>BezelCard hover, dropdowns</td></tr>
+<tr><td>--duration-carousel</td><td>4.5s</td><td>SocialCarousel auto-play</td></tr>
+<tr><td>--duration-kinetic</td><td>0.6s</td><td>Carrusel 3D</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Breakpoints</h3><table><thead><tr><th>Token</th><th>Valor</th><th>Tailwind</th></tr></thead><tbody>
+<tr><td>--bp-sm</td><td>40rem (640px)</td><td>sm</td></tr>
+<tr><td>--bp-md</td><td>48rem (768px)</td><td>md</td></tr>
+<tr><td>--bp-lg</td><td>64rem (1024px)</td><td>lg</td></tr>
+<tr><td>--bp-xl</td><td>80rem (1280px)</td><td>xl</td></tr>
+</tbody></table></div>
+
+<div class="section"><h3>Z-Index Scale</h3><table><thead><tr><th>Capa</th><th>Valor</th></tr></thead><tbody>
+<tr><td>Dropdowns, modales</td><td>50</td></tr>
+<tr><td>Header fijo</td><td>50</td></tr>
+<tr><td>Drawer móvil</td><td>100</td></tr>
+<tr><td>Backdrop overlay</td><td>99</td></tr>
+<tr><td>Scroll-to-top</td><td>40</td></tr>
+<tr><td>Grain/noise overlay</td><td>60 (fixed, pointer-events-none)</td></tr>
+</tbody></table></div>
+</body></html>

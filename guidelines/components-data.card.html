@@ -1,0 +1,30 @@
+<!-- @dsCard group="Components" viewport="700x400" name="Data Components" subtitle="ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box;font-family:var(--font-sans);color:var(--color-brand-blue-500)}h2{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.card{border:1px solid var(--color-brand-blue-100);border-radius:12px;padding:16px;background:var(--color-white)}.card h3{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px;color:var(--color-brand-blue-500)}.card p{margin:0 0 8px;font-size:13px;line-height:1.5}.badge{display:inline-block;font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--color-brand-yellow-500);color:var(--color-brand-blue-500)}.muted{font:400 11px/1.5 var(--font-mono);color:var(--color-brand-blue-500);opacity:.7}</style></head><body>
+<h2>Data Components</h2>
+<p style="margin:0 0 16px;font-size:13px;color:var(--color-brand-blue-500)">4 componentes de datos con lógica de negocio real (pricing.ts, promises.ts).</p>
+<div class="grid">
+  <div class="card">
+    <h3>ServicePricing</h3>
+    <span class="badge">data</span>
+    <p>Tarjeta de precios genérica por servicio (EXPRESS, LOW_COST, FLEX, ECOMMERCE_24HS, ECOMMERCE_SAME_DAY, CONTRAREEMBOLSO, CUENTA_CORRIENTE). Grid responsive min 220px. Featured tier con badge accent. Precio Geist Mono 700 40px+ tabular-nums. CTA Button fullWidth.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-50, --color-brand-blue-100, --color-brand-yellow-500, --color-success-500, --color-error-500, --font-subheading, --font-sans, --font-mono, --tracking-wider, --radius-control, --shadow-sm, --ease-spring, --duration-slow</div>
+  </div>
+  <div class="card">
+    <h3>DropoffCalculator</h3>
+    <span class="badge">data</span>
+    <p>Calculadora interactiva DropOFF -20% (Emprendedores). QuantityStepper + input range sync + FilterChips atajos [25,100,250,500]. Resultado Geist Mono 40px tabular-nums. CTA WhatsApp deep link dinámico. Base $2400 (LowCost Z1 -20%).</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-yellow-500, --color-brand-blue-100, --font-subheading, --font-mono, --font-sans, --tracking-wider, --ease-spring, --duration-cta</div>
+  </div>
+  <div class="card">
+    <h3>CoverageMap</h3>
+    <span class="badge">data</span>
+    <p>Mapa de cobertura estático SVG (OPCIÓN B - sin Leaflet). 5 zonas Z1-Z5 con paths SVG Bézier. Zonas coloreadas Express/LowCost/Flex/Periferia. Hover tooltip con precios. Marcadores Friuli 1972, Puerto, Punta Mogotes, Parque Camet. Leyenda inferior. Responsive 4/3 mobile, 16/9 desktop.</    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-100, --color-brand-blue-50, --color-brand-yellow-500, --color-brand-yellow-100, --color-neutral-50, --radius-card, --shadow-float</div>
+  </div>
+  <div class="card">
+    <h3>NetworkLogos</h3>
+    <span class="badge">data</span>
+    <p>Carrusel de logos marcas/clientes (Home, Footer). Marquee CSS puro 30s linear infinite. Pause on hover, prefers-reduced-motion. Simple Icons CDN (color #0950F6). Altura fija 48px, gap 40px. Array duplicado para loop infinito sin salto.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-100, --animate-marquee-left, --ease-spring, --duration-carousel</div>
+  </div>
+</div>
+</body></html>

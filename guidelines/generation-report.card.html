@@ -1,0 +1,44 @@
+<!-- @dsCard group="Meta" viewport="700x400" name="Reporte de Generación" subtitle="Resumen final PROMPTS_GENERACION_OCTUBRE.md — 36/38 completadas" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box;font-family:var(--font-sans);color:var(--color-brand-blue-500)}h2{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.card{border:1px solid var(--color-brand-blue-100);border-radius:12px;padding:16px;background:var(--color-white)}.card h3{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px;color:var(--color-brand-blue-500)}.card p{margin:0 0 8px;font-size:13px;line-height:1.5}.badge{display:inline-block;font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--color-brand-yellow-500);color:var(--color-brand-blue-500)}.done{color:var(--color-success-500)}.pending{color:var(--color-error-500)}.muted{font:400 11px/1.5 var(--font-mono);color:var(--color-brand-blue-500);opacity:.7}.progress{font:700 14px/1 var(--font-display);color:var(--color-brand-blue-500)}</style></head><body>
+<h2>Reporte de Generación</h2>
+<p class="progress">36/38 Completadas (94.7%)</p>
+<p style="margin:0 0 16px;font-size:13px;color:var(--color-brand-blue-500)">Solo faltan validación visual en browser (Task 38) y reporte final. Generado: 2026-10-03</p>
+
+<h3 style="font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:24px 0 8px;color:var(--color-brand-yellow-500)">Resumen por Fases</h3>
+<div class="grid">
+  <div class="card"><h3>Fase 1 — Tokens <span class="done">5/5</span></h3><p>radius, spacing, shadows, typography, fonts/woff2</p><div class="muted">4 archivos WOFF2 generados (Anton, Bebas Neue, Outfit, Geist Mono)</div></div>
+  <div class="card"><h3>Fase 2 — Core Primitives <span class="done">5/5</span></h3><p>RadioCardGroup, BentoGrid, StepperHorizontal, StepperVertical, AddressAutocomplete</p><div class="muted">3 archivos c/u (.jsx, .d.ts, .prompt.md)</div></div>
+  <div class="card"><h3>Fase 3 — Data Components <span class="done">4/4</span></h3><p>ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos</p><div class="muted">Datos desde pricing.ts + promises.ts</div></div>
+  <div class="card"><h3>Fase 4 — Blocks <span class="done">11/11</span></h3><p>HeroAnimated, ServiceComparison, SurchargesPanel, QuoteGuide, ContactFormBlock, ConversionBanner, FaqSearch, TeamGrid, MissionVision, NetworkChannels, RecentPosts</div></div>
+  <div class="card"><h3>Fase 5 — Layout Variants <span class="done">4/4</span></h3><p>OptimizedHeader, OptimizedFooter, MobileNav, SocialCarousel</p><div class="muted">Framer Motion + prefers-reduced-motion</div></div>
+  <div class="card"><h3>Fase 6 — Pages/UI_Kits <span class="done">7/8</span></h3><p>HomeScreen, CotizadorScreen (nuevo), NosotrosScreen, ContactoScreen, FaqScreen, RedesScreen, EmprendedoresScreen, shared.jsx</div></div>
+</div>
+
+<h3 style="font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:24px 0 8px;color:var(--color-brand-yellow-500)">Métricas</h3>
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px">
+  <div style="text-align:center;padding:12px;background:var(--color-white);border-radius:8px;border:1px solid var(--color-brand-blue-100)"><div style="font:700 28px/1 var(--font-display);color:var(--color-success-500)">104+</div><div style="font:var(--type-label);color:var(--color-brand-blue-500)">Archivos generados</div></div>
+  <div style="text-align:center;padding:12px;background:var(--color-white);border-radius:8px;border:1px solid var(--color-brand-blue-100)"><div style="font:700 28px/1 var(--font-display);color:var(--color-brand-blue-500)">38</div><div style="font:var(--type-label);color:var(--color-brand-blue-500)">Componentes</div></div>
+  <div style="text-align:center;padding:12px;background:var(--color-white);border-radius:8px;border:1px solid var(--color-brand-blue-100)"><div style="font:700 28px/1 var(--font-display);color:var(--color-brand-blue-500)">4</div><div style="font:var(--type-label);color:var(--color-brand-blue-500">WOFF2 fonts</div></div>
+  <div style="text-align:center;padding:12px;background:var(--color-white);border-radius:8px;border:1px solid var(--color-brand-blue-100)"><div style="font:700 28px/1 var(--font-display);color:var(--color-brand-yellow-500)">36</div><div style="font:var(--type-label);color:var(--color-brand-blue-500">Completados</div></div>
+</div>
+
+<h3 style="font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:24px 0 8px;color:var(--color-brand-yellow-500)">Decisiones Clave</h3>
+<ul style="margin:0;padding-left:20px;font-size:13px;line-height:1.8">
+<li><strong>Self-host fonts WOFF2</strong> en <code>public/fonts/</code> — no Google Fonts</li>
+<li><strong>Framer Motion</strong> en OptimizedHeader, OptimizedFooter, HeroAnimated, SocialCarousel — gateado por <code>prefers-reduced-motion</code></li>
+<li><strong>Leaflet</strong> solo si bundle <50kb gz; sino mapa estático SVG/WebP (CoverageMap)</li>
+<li><strong>AddressAutocomplete</strong> con datasource local (barrios MDQ) — NO Google Places API</li>
+<li><strong>TypeScript estricto</strong> — <code>.d.ts</code> completos para todo</li>
+<li><strong>AZUL MÁXIMO = #0950F6</strong> — todo <code>brand-blue-700</code> actual → <code>brand-blue-500</code> (mismo hex, token único)</li>
+<li><strong>NO font-bold</strong> en Anton/Bebas — weight 400 forzado en componentes</li>
+<li><strong>Piso 12px</strong> — eliminar <code>text-[10px]</code>, <code>text-[11px]</code>, <code>text-2xs</code>, <code>text-xs</code> en texto legible</li>
+<li><strong>Heroes solo azul-500 o amarillo-500</strong> — nunca degradados, nunca azul-700/900</li>
+<li><strong>DropOFF -20% solo E-commerce 24HS</strong> — ver promises.ts línea 97</li>
+</ul>
+
+<h3 style="font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:24px 0 8px;color:var(--color-brand-yellow-500)">Pendientes (Requieren Validación Manual)</h3>
+<ol style="margin:0;padding-left:20px;font-size:13px;line-height:1.8">
+  <li><strong>Task 38:</strong> Validación visual completa en browser (http://localhost:8080/) — navegar TODAS las 13 páginas incluyendo nueva CotizadorScreen, verificar checklist completo por página (hero, tipografía, colores, touch targets, prefers-reduced-motion, focus-visible, contraste WCAG AA, componibilidad, no hardcodeados, responsive).</li>
+  <li><strong>Build script:</strong> Ejecutar <code>npm run build</code> (o script equivalente) y confirmar 0 errores.</li>
+  <li><strong>Generar GENERACION_REPORT.md</strong> con resultados finales, decisiones, componentes que requieren revisión, comandos ejecutados.</</ul>
+</body></html>

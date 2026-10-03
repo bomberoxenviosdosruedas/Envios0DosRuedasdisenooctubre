@@ -1,0 +1,31 @@
+<!-- @dsCard group="Layout" viewport="700x400" name="Layout Variants" subtitle="OptimizedHeader, OptimizedFooter, MobileNav, SocialCarousel" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box;font-family:var(--font-sans);color:var(--color-brand-blue-500)}h2{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.card{border:1px solid var(--color-brand-blue-100);border-radius:12px;padding:16px;background:var(--color-white)}.card h3{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px;color:var(--color-brand-blue-500)}.card p{margin:0 0 8px;font-size:13px;line-height:1.5}.badge{display:inline-block;font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--color-brand-yellow-500);color:var(--color-brand-blue-500)}.muted{font:400 11px/1.5 var(--font-mono);color:var(--color-brand-blue-500);opacity:.7}</style></head><body>
+<h2>Layout Variants</h2>
+<p style="margin:0 0 16px;font-size:13px;color:var(--color-brand-blue-500)">4 variantes de layout para Next.js (reemplazan SiteHeader/SiteFooter). Framer Motion + prefers-reduced-motion.</p>
+<div class="grid">
+  <div class="card">
+    <h3>OptimizedHeader</h3>
+    <span class="badge">layout</span>
+    <p>Fixed top z-50, bg brand-blue-700 (#0950F6). Compact on scroll (bg/95 blur shadow). Logo Image priority fill 40px + wordmark Anton bicolor (Envíos blanco + DosRuedas amarillo) kinetic hover rotate 12°. Nav desktop: Bebas 400 (NO bold), ghost dark, dropdown Framer Motion AnimatePresence spring staggerChildren 0.06. Dropdown bg brand-blue-700 rounded-2xl items min-h-11 (44px) hover bg-white/10 text-yellow-500. Phone Mono bold icon Phone amarillo href tel:. CTA contextual: pathname [/,/servicios/*,/cotizar*] → outline border-white/40 text-white hover:bg-white/10; sino primary (amarillo). Mobile: drawer off-canvas AnimatePresence, nav items 48px min-h, CTA fullWidth. prefers-reduced-motion: off. Lock scroll body. Lucide icons inline.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-700, --color-brand-yellow-500, --color-white, --font-display, --font-subheading, --font-mono, --tracking-tight, --tracking-wider, --control-sm, --control-md, --radius-control, --radius-xl, --radius-2xl, --shadow-elevated, --shadow-2xl, --ease-spring, --duration-slow, --duration-cta. Componibilidad: Button (core).</div>
+  </div>
+  <div class="card">
+    <h3>OptimizedFooter</h3>
+    <span class="badge">layout</span>
+    <p>bg brand-blue-700 border-t border-white/10. Franja amarilla 6px (h-1.5 bg-brand-yellow-500 shadow-md shadow-brand-yellow-500/30). Grid 12-cols: Col1(4) Marca+Socials spring hover (y:-4 scale:1.12), Col2(4) Servicios 2 grupos, Col3(4) Base MDQ (4 ContactRow Pin/Phone/Mail/Clock). CTA Banner superior whileInView slide-up (Framer Motion), 2 botones (Cotizar primary + WhatsApp social). Scroll-to-top fixed bottom-right float loop y:[0,-5,0] 2s infinite, whileTap scale:0.92 whileHover scale:1.1 y:-7. Legal bottom: copyright + links servicios/cobertura/guías/nosotros/faq/redes + términos/privacidad. Animaciones: FOOTER_CONTAINER staggerChildren 0.12, FOOTER_COL spring 280/24, BANNER_VARIANT spring 260/22, SOCIAL_SPRING 480/18. prefers-reduced-motion: off. next/link.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-700, --color-brand-yellow-500, --color-brand-yellow-400, --color-white, --color-brand-blue-50, --color-brand-blue-100, --font-display, --font-subheading, --font-sans, --font-mono, --tracking-tight, --tracking-wider, --tracking-widest, --section-y, --page-gutter-lg, --container-page, --radius-card, --radius-xl, --radius-full, --shadow-md, --shadow-xl, --shadow-2xl, --shadow-accent-md, --shadow-cta-glow, --animate-marquee-left. Componibilidad: Button, Badge, Display, Lead, Section, SectionHead, ContactRow, Marquee.</div>
+  </div>
+  <div class="card">
+    <h3>MobileNav</h3>
+    <span class="badge">layout</span>
+    <p>Off-canvas drawer (usado por OptimizedHeader). Fixed inset-0 z-100 bg brand-blue-500 border-l border-white/10. Backdrop overlay fixed inset-0 bg brand-blue-500/70 blur(12px) click→close. Header drawer: wordmark Anton 20px + close btn 44px (X). Nav: items 48px min-h, Bebas 22px uppercase, chevron rotate 180° al abrir submenu. Submenu: indent 16px, items 44px min-h, rgba(255,255,255,.85) → hover blanco + amarillo-500 + translateX(4px). Footer drawer: Phone mono bold 44px min-h + Button fullWidth CTA. Animaciones: AnimatePresence mode="wait", slide X [-100%,0]. prefers-reduced-motion: off. Escape key → close. Focus trap.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-white, --color-brand-yellow-500, --font-display, --font-subheading, --font-mono, --tracking-wider, --control-sm, --control-md, --radius-control, --shadow-2xl, --ease-spring, --duration-slow.</div>
+  </div>
+  <div class="card">
+    <h3>SocialCarousel</h3>
+    <span class="badge">layout</span>
+    <p>Carrusel posts sociales (distinto a Marquee: cards con imagen, caption, métricas). Cover-flow via scroll-snap: centro scale-104, laterales scale-65-90, opacity fade. Dots indicadores (barra amarilla activa 40px, inactiva 10px). Auto-play pause on hover + prefers-reduced-motion. Cada slide: FeatureCard tone rotativo [accent,light,dark] bg imagen, tag, title, body, footer Button "Ver post". Touch/swipe nativo scroll-behavior:smooth. Altura fija 380px, ancho slide 300px, gap 20px. Prev/Next arrows desktop (≥768px).</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-yellow-500, --color-white, --color-brand-blue-100, --color-brand-blue-50, --font-display, --font-subheading, --font-sans, --font-mono, --tracking-wider, --duration-carousel, --ease-spring, --shadow-float, --shadow-elevated. Componibilidad: FeatureCard, Button, Badge.</div>
+  </div>
+</div>
+</body></html>

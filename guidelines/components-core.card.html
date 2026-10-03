@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="700x400" name="Core Primitives" subtitle="RadioCardGroup, BentoGrid, StepperHorizontal, StepperVertical, AddressAutocomplete" -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:16px;box-sizing:border-box;font-family:var(--font-sans);color:var(--color-brand-blue-500)}h2{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.card{border:1px solid var(--color-brand-blue-100);border-radius:12px;padding:16px;background:var(--color-white)}.card h3{font:var(--type-sub);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px;color:var(--color-brand-blue-500)}.card p{margin:0 0 8px;font-size:13px;line-height:1.5}.badge{display:inline-block;font:var(--type-label);letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--color-brand-yellow-500);color:var(--color-brand-blue-500)}.muted{font:400 11px/1.5 var(--font-mono);color:var(--color-brand-blue-500);opacity:.7}</style></head><body>
+<h2>Core Primitives</h2>
+<p style="margin:0 0 16px;font-size:13px;color:var(--color-brand-blue-500)">5 primitivas base del sistema. Solo tokens, sin valores hardcodeados.</p>
+<div class="grid">
+  <div class="card">
+    <h3>RadioCardGroup</h3>
+    <span class="badge">core</span>
+    <p>Selector de servicio (Express/LowCost/Flex) con estados checked diferenciados por tipo. Grid 1/3 cols, hover lift, focus-visible ring.</    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-yellow-500, --shadow-float, --shadow-antigravity-deep, --radius-card, --radius-card-inner, --control-sm, --font-display, --font-subheading, --font-sans, --font-mono, --tracking-wider, --ease-spring, --duration-slow</div>
+  </div>
+  <div class="card">
+    <h3>BentoGrid</h3>
+    <span class="badge">core</span>
+    <p>Layout asimétrico 12-cols para showcase de servicios. Items span: hero(7), standard(5), full(12). Mobile-first col-span-1. doubleBezel opcional.</p>
+    <div class="muted">Tokens: --spacing-6, --spacing-8, --radius-card, --radius-card-inner, --shadow-float, --shadow-cta-glow</div>
+  </div>
+  <div class="card">
+    <h3>StepperHorizontal</h3>
+    <span class="badge">core</span>
+    <p>Stepper de flujo horizontal (cotizador). Línea base brand-blue-100, progreso brand-yellow-500. Círculos 48px. Completed/Active/Pending states. Keyboard accessible.</    <div class="muted">Tokens: --color-brand-blue-100, --color-brand-yellow-500, --color-brand-blue-500, --color-brand-blue-300, --color-white, --control-md, --radius-full, --font-subheading, --font-mono, --tracking-wider, --ease-spring, --duration-slow</div>
+  </div>
+  <div class="card">
+    <h3>StepperVertical</h3>
+    <span class="badge">core</span>
+    <p>Stepper vertical alternativo (lista numerada 01·02·03). Dots 44px (--tap-min). Completed/Active/Pending. Diferencia con Steps.jsx: este es para flujo de UI, Steps para "cómo funciona".</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-100, --color-brand-yellow-500, --color-white, --tap-min, --control-md, --radius-full, --font-display, --font-subheading, --font-sans, --font-mono, --tracking-tight, --tracking-wider, --ease-spring, --duration-slow</div>
+  </div>
+  <div class="card">
+    <h3>AddressAutocomplete</h3>
+    <span class="badge">core</span>
+    <p>Autocompletado origen/destino para cotizador (barrios MDQ). Datasource local (82 barrios), NO Google Places API. Debounce 150ms, keyboard nav, dropdown CSS-only dark theme.</p>
+    <div class="muted">Tokens: --color-brand-blue-500, --color-brand-blue-100, --color-brand-blue-300, --color-brand-blue-400, --color-brand-blue-50, --color-white, --color-error-500, --control-sm, --radius-control, --font-subheading, --font-sans, --font-mono, --tracking-wider, --ease-default, --duration-base</div>
+  </div>
+</div>
+</body></html>
