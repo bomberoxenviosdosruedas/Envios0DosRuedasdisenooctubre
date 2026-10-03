@@ -1,36 +1,36 @@
 :root{
-/* Familias (verificado). Declaradas directo, sin auto-referencia */
---font-display:"Anton",Impact,sans-serif;
---font-subheading:"Bebas Neue",Impact,sans-serif;
---font-sans:"Outfit","IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
---font-mono:"Geist Mono",ui-monospace,monospace;
-/* Escala (verificado, Tailwind v4) */
---text-2xs:.625rem; /* existe pero NO usar para texto legible: piso 12px */
---text-xs:.75rem;--text-xs--line-height:1.3333;
---text-sm:.875rem;--text-sm--line-height:1.4286;
---text-base:1rem;--text-base--line-height:1.5;
---text-lg:1.125rem;--text-lg--line-height:1.5556;
---text-xl:1.25rem;--text-xl--line-height:1.4;
---text-2xl:1.5rem;--text-2xl--line-height:1.3333;
---text-3xl:1.875rem;--text-3xl--line-height:1.2;
---text-4xl:2.25rem;--text-4xl--line-height:1.1111;
---text-5xl:3rem;--text-5xl--line-height:1;
---text-6xl:3.75rem;--text-6xl--line-height:1;
---text-7xl:4.5rem;--text-7xl--line-height:1;
-/* Pesos (verificado). Anton y Bebas Neue solo tienen 400 */
---font-weight-light:300;--font-weight-normal:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;
-/* Tracking (verificado) */
---tracking-tight:-.025em;--tracking-wide:.025em;--tracking-wider:.05em;--tracking-widest:.1em;--tracking-mega:.2em;
---tracking-display:-.03em; /* h1 unificado (10 de 12 páginas) */
-/* Leading (verificado) */
---leading-none:1;--leading-display:.92;--leading-tight:1.25;--leading-snug:1.375;--leading-relaxed:1.625;
-/* Roles */
---type-h1:400 clamp(2.25rem,6vw,4.5rem)/var(--leading-display) var(--font-display);
---type-h2:400 clamp(1.875rem,4vw,3rem)/1.1 var(--font-display);
---type-h3:400 1.5rem/1.3333 var(--font-display);
---type-sub:400 1rem/1 var(--font-subheading);
---type-label:400 .75rem/1.3333 var(--font-subheading);
---type-body:400 1rem/1.625 var(--font-sans);
---type-body-sm:400 .875rem/1.625 var(--font-sans);
---type-data:400 .875rem/1.4286 var(--font-mono);
+  /* Familias (valores directos, sin auto-referencia). Anton/Bebas solo 400. Outfit/Geist Mono variables 100..900. */
+  --font-display:"Anton",Impact,sans-serif;
+  --font-subheading:"Bebas Neue",Impact,sans-serif;
+  --font-sans:"Outfit","IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --font-mono:"Geist Mono",ui-monospace,monospace;
+  /* Escala (Tailwind v4) */
+  --text-2xs:.625rem; /* existe pero NO usar para texto legible: piso 12px */
+  --text-xs:.75rem;--text-xs--line-height:1.3333;
+  --text-sm:.875rem;--text-sm--line-height:1.4286;
+  --text-base:1rem;--text-base--line-height:1.5;
+  --text-lg:1.125rem;--text-lg--line-height:1.5556;
+  --text-xl:1.25rem;--text-xl--line-height:1.4;
+  --text-2xl:1.5rem;--text-2xl--line-height:1.3333;
+  --text-3xl:1.875rem;--text-3xl--line-height:1.2;
+  --text-4xl:2.25rem;--text-4xl--line-height:1.1111;
+  --text-5xl:3rem;--text-5xl--line-height:1;
+  --text-6xl:3.75rem;--text-6xl--line-height:1;
+  --text-7xl:4.5rem;--text-7xl--line-height:1;
+  /* Pesos. Anton y Bebas Neue solo tienen 400 — no usar font-bold sobre ellos. */
+  --font-weight-light:300;--font-weight-normal:400;--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;
+  /* Tracking */
+  --tracking-tight:-.025em;--tracking-wide:.025em;--tracking-wider:.05em;--tracking-widest:.1em;--tracking-mega:.2em;
+  --tracking-display:-.03em; /* h1 unificado (10 de 12 páginas) */
+  /* Leading */
+  --leading-none:1;--leading-display:.92;--leading-tight:1.25;--leading-snug:1.375;--leading-relaxed:1.625;
+  /* Roles tipográficos semánticos (DESIGN.md §3) */
+  --type-h1:400 clamp(2.25rem,6vw,4.5rem)/var(--leading-display) var(--font-display);
+  --type-h2:400 clamp(1.875rem,4vw,3rem)/1.1 var(--font-display);
+  --type-h3:400 1.5rem/1.3333 var(--font-display);
+  --type-sub:400 1rem/1 var(--font-subheading);
+  --type-label:400 .75rem/1.3333 var(--font-subheading);
+  --type-body:400 1rem/1.625 var(--font-sans);
+  --type-body-sm:400 .875rem/1.625 var(--font-sans);
+  --type-data:400 .875rem/1.4286 var(--font-mono);
 }
