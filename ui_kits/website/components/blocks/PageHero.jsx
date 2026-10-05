@@ -1,5 +1,24 @@
 import React from "react";
 /** Hero de página: azul-500 o amarillo-500 (única regla de hero), grilla punteada 48px, blobs con blur y columna aside (lg:7/5). */
+const staggerDelay = 40; // ms between each child (matches --stagger-base token)
+
+function withStagger(children) {
+  const childArray = React.Children.toArray(children);
+  return childArray.map((child, index) => {
+    if (!React.isValidElement(child)) return child;
+    const delay = index * staggerDelay;
+    const baseStyle = child.props.style || {};
+    return React.cloneElement(child, {
+      style: {
+        ...baseStyle,
+        animation: "grow-x 400ms var(--ease-out) forwards",
+        animationDelay: delay + "ms",
+        opacity: 0,
+      },
+    });
+  });
+}
+
 export function PageHero({ tone = "blue", id, aside, children, style }) {
   const y = tone === "yellow";
   return <section id={id} style={{ position: "relative", isolation: "isolate", background: y ? "var(--color-brand-yellow-500)" : "var(--color-brand-blue-500)", color: y ? "var(--color-brand-blue-500)" : "var(--color-white)", overflow: "hidden", padding: "var(--section-y-lg) var(--page-gutter-lg)", ...style }}>
@@ -9,8 +28,23 @@ export function PageHero({ tone = "blue", id, aside, children, style }) {
       <div style={{ position: "absolute", bottom: -160, left: "33%", width: 550, height: 550, borderRadius: "50%", background: "radial-gradient(circle, rgba(9,80,246,.4) 0%, transparent 70%)", filter: "blur(100px)" }}></div>
     </div>
     <div className="eds-hero-grid" style={{ position: "relative", maxWidth: "var(--container-page)", margin: "0 auto", display: "grid", gridTemplateColumns: aside ? "minmax(0,7fr) minmax(0,5fr)" : "1fr", gap: 56, alignItems: "center" }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: 28, alignItems: "flex-start" }}>{children}</div>{aside}
+      <div style={{ display: "flex", flexDirection: "column", gap: 28, alignItems: "flex-start" }}>
+        {withStagger(children)}
+      </div>
+      {aside}
     </div>
+    <style>{`
+      @media (prefers-reduced-motion: reduce) {
+        .eds-hero-grid > div > * {
+          animation: none !important;
+          opacity: 1 !important;
+        }
+      }
+      @keyframes grow-x {
+        0% { opacity: 0; transform: translateX(-20px) scaleX(0.95); }
+        100% { opacity: 1; transform: translateX(0) scaleX(1); }
+      }
+    `}</style>
     <style>{"@media(max-width:1023px){.eds-hero-grid{grid-template-columns:1fr!important}}"}</style>
   </section>;
 }

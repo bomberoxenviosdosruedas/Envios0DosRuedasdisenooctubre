@@ -1,4 +1,4 @@
-:root{
+content = """:root{
 /* Easings (verificado) */
 --ease-default:var(--ease-in-out);/* @kind other - alias for backward compat */
 --ease-in-out:cubic-bezier(.45,0,.55,1);/* @kind other */
@@ -7,7 +7,7 @@
 --ease-in-out:cubic-bezier(.45,0,.55,1);/* @kind other */
 --ease-pulse:cubic-bezier(.4,0,.6,1);/* @kind other */
 /* Duraciones (verificado) */
---duration-fast:.15s;/* @kind other */--duration-base:.2s;/* @kind other */--duration-cta:.25s;/* @kind other */--duration-slow:.3s;/* @kind other */--duration-kinetic:.4s;/* @kind other */--duration-carousel:.6s;/* @kind other */--stagger-base:40ms;/* @kind other */
+--duration-fast:.15s;/* @kind other */--duration-base:.2s;/* @kind other */--duration-cta:.25s;/* @kind other */--duration-slow:.3s;/* @kind other */--duration-kinetic:.4s;/* @kind other */--duration-carousel:.6s;/* @kind other */
 /* Animaciones declaradas */
 --animate-ping:ping 1s var(--ease-out) infinite;/* @kind other */
 --animate-pulse:pulse 2s var(--ease-pulse) infinite;/* @kind other */
@@ -34,5 +34,9 @@
 @keyframes grow-x{0%{opacity:0;transform:translateX(-20px) scaleX(.95)}to{opacity:1;transform:translateX(0) scaleX(1)}}
 @keyframes blob-enter{0%{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes ping-once{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
-@keyframes pulse-once{0%{opacity:0}to{opacity:1}}
-@media (prefers-reduced-motion:reduce){:root{--animate-ping:none;--animate-pulse:none;--animate-float-slow:none;--animate-logos-scroll:none;--animate-marquee-left:none;--animate-marquee-right:none;--animate-pulse-ring:none;--duration-base:0s;--duration-fast:0s;--duration-cta:0s;--duration-slow:0s;--duration-carousel:0s;}*,*::before,*::after{animation:none!important;transition:none!important;animation-duration:0s!important;transition-duration:0s!important;}}
+@media (prefers-reduced-motion:reduce){:root{--animate-ping:none;--animate-pulse:none;--animate-float-slow:none;--animate-logos-scroll:none;--animate-marquee-left:none;--animate-marquee-right:none;--animate-pulse-ring:none;--duration-base:0s;--duration-fast:0s;--duration-cta:0s;--duration-slow:0s;--duration-carousel:0s;}*,*::before,*::after{animation:none!important;transition:none!important;animation-duration:0s!important;transition-duration:0s!important;}}"""
+
+path = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\tokens\motion.css"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(content)
+print("motion.css updated successfully")
