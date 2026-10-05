@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="100%">
+  <rect width="900" height="350" fill="#041F63" rx="16"/>
+  <text x="450" y="45" font-family="'Outfit', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">ENVÍOS DOSRUEDAS — PALETA DE COLORES OFICIAL</text>
+
+  <!-- Azul Oficial -->
+  <g transform="translate(40, 75)">
+    <rect width="250" height="180" rx="12" fill="#0950F6" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <rect x="0" y="180" width="250" height="65" rx="0" fill="#062D85"/>
+    <path d="M 0 180 L 250 180 L 250 233 Q 250 245 238 245 L 12 245 Q 0 245 0 233 Z" fill="#062D85"/>
+    <text x="125" y="205" font-family="'Outfit', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Azul Eléctrico</text>
+    <text x="125" y="230" font-family="'Geist Mono', monospace" font-size="18" font-weight="bold" fill="#FFEC01" text-anchor="middle">#0950F6</text>
+  </g>
+
+  <!-- Amarillo Oficial -->
+  <g transform="translate(325, 75)">
+    <rect width="250" height="180" rx="12" fill="#FFEC01" stroke="#0950F6" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M 0 180 L 250 180 L 250 233 Q 250 245 238 245 L 12 245 Q 0 245 0 233 Z" fill="#062D85"/>
+    <text x="125" y="205" font-family="'Outfit', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Amarillo Marca</text>
+    <text x="125" y="230" font-family="'Geist Mono', monospace" font-size="18" font-weight="bold" fill="#FFEC01" text-anchor="middle">#FFEC01</text>
+  </g>
+
+  <!-- Blanco Oficial -->
+  <g transform="translate(610, 75)">
+    <rect width="250" height="180" rx="12" fill="#FFFFFF" stroke="#0950F6" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M 0 180 L 250 180 L 250 233 Q 250 245 238 245 L 12 245 Q 0 245 0 233 Z" fill="#062D85"/>
+    <text x="125" y="205" font-family="'Outfit', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Blanco Puro</text>
+    <text x="125" y="230" font-family="'Geist Mono', monospace" font-size="18" font-weight="bold" fill="#FFEC01" text-anchor="middle">#FFFFFF</text>
+  </g>
+
+  <text x="450" y="325" font-family="'Outfit', sans-serif" font-size="13" fill="#8EAFFB" text-anchor="middle">Regla v2: Máximo azul #0950F6 · Texto sobre amarillo en azul #0950F6 · Amarillo solo sobre azul</text>
+</svg>

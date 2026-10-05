@@ -1,0 +1,850 @@
+DESIGN.md:7: #FFF12E | Line: brand-yellow-400: "#FFF12E"
+DESIGN.md:9: #E6EEFE | Line: brand-blue-50: "#E6EEFE"
+DESIGN.md:10: #D6E4FE | Line: brand-blue-75: "#D6E4FE"
+DESIGN.md:11: #BACEFD | Line: brand-blue-100: "#BACEFD"
+DESIGN.md:12: #8EAFFB | Line: brand-blue-200: "#8EAFFB"
+DESIGN.md:13: #628FF9 | Line: brand-blue-300: "#628FF9"
+DESIGN.md:14: #3570F8 | Line: brand-blue-400: "#3570F8"
+DESIGN.md:15: #FFF45C | Line: brand-yellow-300: "#FFF45C"
+DESIGN.md:16: #F8FAFC | Line: neutral-50: "#F8FAFC"
+DESIGN.md:17: #EF4444 | Line: error-500: "#EF4444"
+DESIGN.md:18: #DC2626 | Line: error-600: "#DC2626"
+DESIGN.md:19: #16A34A | Line: success-500: "#16A34A"   # propuesto
+DESIGN.md:20: #F59E0B | Line: warning-500: "#F59E0B"   # propuesto
+DESIGN.md:21: #25D366 | Line: social-whatsapp: "#25D366"
+DESIGN.md:42: #3570F8 | Line: | brand-blue-400 | #3570F8 | Solo decorativo (anillos, hover de borde). 4.35:1 sobre blanco ⇒ nunca
+DESIGN.md:43: #E6EEFE | Line: | brand-blue-50…300 | #E6EEFE…#628FF9 | Fondos suaves, bordes, bezel, hover de secundario | verifica
+DESIGN.md:43: #628FF9 | Line: | brand-blue-50…300 | #E6EEFE…#628FF9 | Fondos suaves, bordes, bezel, hover de secundario | verifica
+DESIGN.md:45: #FFF12E | Line: | brand-yellow-400 | #FFF12E | Hover del primario | verificado |
+DESIGN.md:46: #FFF45C | Line: | brand-yellow-300 | #FFF45C | Declarado; 1 uso | verificado |
+DESIGN.md:48: #F8FAFC | Line: | neutral-50 | #F8FAFC | Fondo alternativo (10 usos) | verificado |
+DESIGN.md:49: #EF4444 | Line: | error-500/600 | #EF4444 / #DC2626 | Asterisco requerido / texto de error (600 = 4.83:1) | verifica
+DESIGN.md:49: #DC2626 | Line: | error-500/600 | #EF4444 / #DC2626 | Asterisco requerido / texto de error (600 = 4.83:1) | verifica
+DESIGN.md:50: #16A34A | Line: | success-500, warning-500 | #16A34A, #F59E0B | Solo como ícono/borde; texto del estado en azul-500
+DESIGN.md:50: #F59E0B | Line: | success-500, warning-500 | #16A34A, #F59E0B | Solo como ícono/borde; texto del estado en azul-500
+DESIGN.md:51: #25D366 | Line: | social-* | #25D366 · #1877F2 · #E1306C | Solo iconografía. Nunca fondo con texto blanco | verifica
+DESIGN.md:51: #1877F2 | Line: | social-* | #25D366 · #1877F2 · #E1306C | Solo iconografía. Nunca fondo con texto blanco | verifica
+DESIGN.md:51: #E1306C | Line: | social-* | #25D366 · #1877F2 · #E1306C | Solo iconografía. Nunca fondo con texto blanco | verifica
+DESIGN.md:53: #0A4FC0 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #083AA3 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #062D85 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #041F63 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #0B5ED7 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #0A4FC0 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:53: #1877F2 | Line: **Eliminados por regla v2:** brand-blue-600 #0A4FC0, 700 #083AA3, 800 #062D85, 900 #041F63, `brand-i
+DESIGN.md:99: #0B5ED7 | Line: Unificaciones: **skip-link** = `<Button size="sm">Saltar al contenido</Button>` (antes: rounded-xl +
+DESIGN.md:99: #1877F2 | Line: Unificaciones: **skip-link** = `<Button size="sm">Saltar al contenido</Button>` (antes: rounded-xl +
+DESIGN.md:118: #0B5ED7 | Line: 2. **Hex fuera de paleta** #0B5ED7 (48), #0A4FC0 (12), #1877F2 (288) → brand-blue-500; colores de re
+DESIGN.md:118: #0A4FC0 | Line: 2. **Hex fuera de paleta** #0B5ED7 (48), #0A4FC0 (12), #1877F2 (288) → brand-blue-500; colores de re
+DESIGN.md:118: #1877F2 | Line: 2. **Hex fuera de paleta** #0B5ED7 (48), #0A4FC0 (12), #1877F2 (288) → brand-blue-500; colores de re
+DESIGN.md:128: #1877F2 | Line: 12. **Contraste** `text-brand-blue-400` sobre blanco (4.35) → azul-500; blanco sobre #1877F2 (4.23)
+DESIGN.md:136: #FFF12E | Line: - #0950F6 sobre #FFEC01: **4.94** ✓ · #0950F6 sobre #FFF12E (hover): **5.12** ✓
+DESIGN.md:137: #E6EEFE | Line: - #0950F6 sobre #E6EEFE: **5.17** ✓ · sobre #F8FAFC: **5.75** ✓ · sobre #BACEFD: **3.82** (solo bord
+DESIGN.md:137: #F8FAFC | Line: - #0950F6 sobre #E6EEFE: **5.17** ✓ · sobre #F8FAFC: **5.75** ✓ · sobre #BACEFD: **3.82** (solo bord
+DESIGN.md:137: #BACEFD | Line: - #0950F6 sobre #E6EEFE: **5.17** ✓ · sobre #F8FAFC: **5.75** ✓ · sobre #BACEFD: **3.82** (solo bord
+DESIGN.md:138: #DC2626 | Line: - #DC2626 sobre #FFFFFF: **4.83** ✓ (texto de error) · #EF4444: 3.76 (solo asterisco/borde)
+DESIGN.md:138: #EF4444 | Line: - #DC2626 sobre #FFFFFF: **4.83** ✓ (texto de error) · #EF4444: 3.76 (solo asterisco/borde)
+DESIGN.md:139: #3570F8 | Line: - Eliminados: #3570F8/blanco 4.35 ✗ · blanco/#1877F2 4.23 ✗ · blanco/#E1306C 4.34 ✗ · #FFEC01/blanco
+DESIGN.md:139: #1877F2 | Line: - Eliminados: #3570F8/blanco 4.35 ✗ · blanco/#1877F2 4.23 ✗ · blanco/#E1306C 4.34 ✗ · #FFEC01/blanco
+DESIGN.md:139: #E1306C | Line: - Eliminados: #3570F8/blanco 4.35 ✗ · blanco/#1877F2 4.23 ✗ · blanco/#E1306C 4.34 ✗ · #FFEC01/blanco
+DESIGN.md:139: #3570F8 | Line: - Eliminados: #3570F8/blanco 4.35 ✗ · blanco/#1877F2 4.23 ✗ · blanco/#E1306C 4.34 ✗ · #FFEC01/blanco
+DESIGN.md:140: #16A34A | Line: - Propuestos (solo ícono/borde): #16A34A/blanco 3.30 · #0950F6/#F59E0B 2.80
+DESIGN.md:140: #F59E0B | Line: - Propuestos (solo ícono/borde): #16A34A/blanco 3.30 · #0950F6/#F59E0B 2.80
+PROMPTS_GENERACION_OCTUBRE.md:749: #25D366 | Line: 1. WhatsApp: "Cotizaciones instantáneas..." / wa / "Chateá ahora" / #25D366
+PROMPTS_GENERACION_OCTUBRE.md:750: #E1306C | Line: 2. Instagram: "Novedades de la flota..." / msg / "Seguinos" / #E1306C
+PROMPTS_GENERACION_OCTUBRE.md:751: #1877F2 | Line: 3. Facebook: "Avisos de servicios..." / users / "Seguinos" / #1877F2
+_ds_manifest.json:1: #1877F2 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #E6EEFE | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #D6E4FE | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #BACEFD | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #8EAFFB | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #628FF9 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #3570F8 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #FFF45C | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #FFF12E | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #F8FAFC | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #EF4444 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #DC2626 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #16A34A | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #F59E0B | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #25D366 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #1877F2 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+_ds_manifest.json:1: #E1306C | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+readme.md:27: #041F63 | Line: - **Paleta:** azul eléctrico #0950F6 + amarillo #FFEC01 + blanco. El azul-500 es el **máximo**: no e
+readme.md:29: #833AB4 | Line: - **Fondos:** heroes solo azul-500 o amarillo-500, llenos de borde a borde. Textura: grilla punteada
+readme.md:42: #25D366 | Line: - **Lucide** (stroke 2, round caps, 24px base; 16–20px en uso) inline como `<svg class="lucide">` o
+template_contact.txt:25: #8EAFFB | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #628FF9 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E6EEFE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #D6E4FE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #BACEFD | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #3570F8 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #0A4FC0 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #083AA3 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #062D85 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #041F63 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FFF12E | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:25: #EF4444 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_contact.txt:31: #25D366 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #F56040 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_contact.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:25: #8EAFFB | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #628FF9 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E6EEFE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #D6E4FE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #BACEFD | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #3570F8 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #0A4FC0 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #083AA3 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #062D85 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #041F63 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FFF12E | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:25: #EF4444 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #F56040 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_faq.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:25: #8EAFFB | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #628FF9 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E6EEFE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #D6E4FE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #BACEFD | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #3570F8 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #0A4FC0 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #083AA3 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #062D85 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #041F63 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FFF12E | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:25: #EF4444 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #F56040 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_plan_emprendedores.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:25: #8EAFFB | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #628FF9 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E6EEFE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #D6E4FE | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #BACEFD | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #3570F8 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #0A4FC0 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #083AA3 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #062D85 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #041F63 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FFF12E | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #0B5ED7 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F56040 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #E1306C | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #1877F2 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #833AB4 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #FD1D1D | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #F77737 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:25: #EF4444 | Line: @layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orie
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #0B5ED7 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #1877F2 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #F56040 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #E1306C | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #833AB4 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #F77737 | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+template_source.txt:31: #FD1D1D | Line: <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id=
+components/blocks/ContactFormBlock.prompt.md:64: #16A34A | Line: - `var(--color-success-500)` — texto éxito (propuesto #16A34A)
+components/blocks/NetworkChannels.jsx:20: #25D366 | Line: color: "#25D366",
+components/blocks/NetworkChannels.jsx:28: #E1306C | Line: color: "#E1306C",
+components/blocks/NetworkChannels.jsx:36: #1877F2 | Line: color: "#1877F2",
+components/blocks/NetworkChannels.prompt.md:51: #25D366 | Line: 1. **WhatsApp**: "Cotizaciones instantáneas..." / wa icon / "Chateá ahora" / `https://wa.me/54223660
+components/blocks/NetworkChannels.prompt.md:52: #E1306C | Line: 2. **Instagram**: "Novedades de la flota..." / instagram icon / "Seguinos" / `https://www.instagram.
+components/blocks/NetworkChannels.prompt.md:53: #1877F2 | Line: 3. **Facebook**: "Avisos de servicios..." / facebook icon / "Seguinos" / `https://www.facebook.com/e
+components/blocks/NetworkChannels.prompt.md:61: #25D366 | Line: - `var(--color-social-whatsapp)` — `#25D366` (icon bg 10%, icon color)
+components/blocks/NetworkChannels.prompt.md:62: #E1306C | Line: - `var(--color-social-instagram)` — `#E1306C`
+components/blocks/NetworkChannels.prompt.md:63: #1877F2 | Line: - `var(--color-social-facebook)` — `#1877F2`
+components/blocks/ServiceComparison.prompt.md:71: #16A34A | Line: - `var(--color-success-500)` — check icon (`#16A34A` propuesto)
+components/blocks/ServiceComparison.prompt.md:72: #EF4444 | Line: - `var(--color-error-500)` — cross icon (`#EF4444`)
+guidelines/PROMPTS-IMAGENES.md:20: #E6EEFE | Line: Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top faces, light
+guidelines/PROMPTS-IMAGENES.md:20: #8EAFFB | Line: Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top faces, light
+guidelines/PROMPTS-IMAGENES.md:20: #628FF9 | Line: Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top faces, light
+guidelines/PROMPTS-IMAGENES.md:23: #628FF9 | Line: Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue #3570F8 f
+guidelines/PROMPTS-IMAGENES.md:23: #3570F8 | Line: Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue #3570F8 f
+guidelines/PROMPTS-IMAGENES.md:23: #E6EEFE | Line: Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue #3570F8 f
+guidelines/PROMPTS-IMAGENES.md:26: #3570F8 | Line: Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue #628FF9 f
+guidelines/PROMPTS-IMAGENES.md:26: #628FF9 | Line: Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue #628FF9 f
+guidelines/PROMPTS-IMAGENES.md:26: #E6EEFE | Line: Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue #628FF9 f
+guidelines/PROMPTS-IMAGENES.md:29: #FF00FF | Line: Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to edge, not refl
+guidelines/PROMPTS-IMAGENES.md:60: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:60: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:60: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:64: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:82: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:82: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:82: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:86: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:104: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:104: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:104: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:108: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:126: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:126: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:126: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:130: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:148: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:148: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:148: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:152: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:170: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:170: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:170: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:174: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:192: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:192: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:192: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:196: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:214: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:214: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:214: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:218: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:236: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:236: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:236: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:240: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:258: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:258: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:258: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/PROMPTS-IMAGENES.md:262: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:280: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:280: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:280: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:284: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:302: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/PROMPTS-IMAGENES.md:302: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/PROMPTS-IMAGENES.md:302: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/PROMPTS-IMAGENES.md:306: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/PROMPTS-IMAGENES.md:324: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:324: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:324: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:346: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:346: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:346: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/PROMPTS-IMAGENES.md:369: #628FF9 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/PROMPTS-IMAGENES.md:369: #3570F8 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/PROMPTS-IMAGENES.md:369: #E6EEFE | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/PROMPTS-IMAGENES.md:370: #0636A5 | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/PROMPTS-IMAGENES.md:370: #00277C | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/PROMPTS-IMAGENES.md:381: #FF00FF | Line: - [Background]: si es un recorte para el sitio (hero card media), usá "Solid flat uniform unlit chro
+guidelines/colors-blue-ramp.card.html:2: #E6EEFE | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #E6EEFE | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #D6E4FE | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #D6E4FE | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #BACEFD | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #BACEFD | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #8EAFFB | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #8EAFFB | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #628FF9 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #628FF9 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #3570F8 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-blue-ramp.card.html:2: #3570F8 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-brand.card.html:2: #FFF12E | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-brand.card.html:2: #FFF12E | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-contrast.card.html:3: #E6EEFE | Line: <tr><td>#0950F6</td><td>#FFFFFF</td><td>6.02</td><td>✓ normal</td></tr><tr><td>#FFFFFF</td><td>#0950
+guidelines/colors-contrast.card.html:3: #3570F8 | Line: <tr><td>#0950F6</td><td>#FFFFFF</td><td>6.02</td><td>✓ normal</td></tr><tr><td>#FFFFFF</td><td>#0950
+guidelines/colors-contrast.card.html:3: #1877F2 | Line: <tr><td>#0950F6</td><td>#FFFFFF</td><td>6.02</td><td>✓ normal</td></tr><tr><td>#FFFFFF</td><td>#0950
+guidelines/colors-roles.card.html:2: #FFF12E | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #EF4444 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #EF4444 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #DC2626 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #DC2626 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #16A34A | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #16A34A | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #F59E0B | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #F59E0B | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #F8FAFC | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-semantic.card.html:2: #F8FAFC | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:1: #1877F2 | Line: <!-- @dsCard group="Colors" viewport="700x130" name="Redes (terceros)" subtitle="Solo iconografía. N
+guidelines/colors-social.card.html:2: #25D366 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:2: #25D366 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:2: #1877F2 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:2: #1877F2 | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:2: #E1306C | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-social.card.html:2: #E1306C | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-yellow-ramp.card.html:2: #FFF45C | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-yellow-ramp.card.html:2: #FFF45C | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-yellow-ramp.card.html:2: #FFF12E | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/colors-yellow-ramp.card.html:2: #FFF12E | Line: <!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.cs
+guidelines/prompts-imagenes-standalone.html:16: #628FF9 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes-standalone.html:16: #3570F8 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes-standalone.html:16: #E6EEFE | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes-standalone.html:17: #0636A5 | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/prompts-imagenes-standalone.html:17: #00277C | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/prompts-imagenes-standalone.html:28: #FF00FF | Line: - [Background]: si es un recorte para el sitio (hero card media), usá "Solid flat uniform unlit chro
+guidelines/prompts-imagenes-standalone.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #8EAFFB | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #3570F8 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #3570F8 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:49: #FF00FF | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes-standalone.html:52: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:52: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:52: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:56: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:59: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:59: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:59: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:63: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:66: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:66: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:66: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:70: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:73: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:73: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:73: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:77: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:80: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:80: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:80: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:84: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:87: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:87: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:87: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:91: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:94: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:94: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:94: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:98: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:101: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:101: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:101: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:105: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:108: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:108: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:108: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:112: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:115: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:115: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:115: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes-standalone.html:119: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:122: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:122: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:122: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:126: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:129: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes-standalone.html:129: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes-standalone.html:129: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes-standalone.html:133: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes-standalone.html:136: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:136: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:136: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:143: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:143: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes-standalone.html:143: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:16: #628FF9 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes.html:16: #3570F8 | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes.html:16: #E6EEFE | Line: Paleta obligatoria: bright blue #0950F6 (el azul más oscuro permitido en toda la imagen, incluso en
+guidelines/prompts-imagenes.html:17: #0636A5 | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/prompts-imagenes.html:17: #00277C | Line: Prohibido: verde de cualquier tono, gris, carbón, negro, rojo, naranja, violeta y cualquier azul más
+guidelines/prompts-imagenes.html:28: #FF00FF | Line: - [Background]: si es un recorte para el sitio (hero card media), usá "Solid flat uniform unlit chro
+guidelines/prompts-imagenes.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #8EAFFB | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #3570F8 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #3570F8 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #628FF9 | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #E6EEFE | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:49: #FF00FF | Line: - ¿Va texto encima?: no, es recorte</pre></div><h2>Bloques reutilizables</h2><div class="g3"><div cl
+guidelines/prompts-imagenes.html:52: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:52: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:52: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:56: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:59: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:59: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:59: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:63: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:66: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:66: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:66: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:70: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:73: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:73: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:73: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:77: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:80: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:80: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:80: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:84: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:87: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:87: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:87: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:91: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:94: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:94: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:94: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:98: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:101: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:101: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:101: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:105: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:108: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:108: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:108: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:112: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:115: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:115: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:115: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 and sky blue #628FF9 for main volumes, blue
+guidelines/prompts-imagenes.html:119: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:122: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:122: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:122: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:126: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:129: #3570F8 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes.html:129: #628FF9 | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes.html:129: #E6EEFE | Line: [Palette] Base material colors ONLY: bright blue #0950F6 for main volumes, blue #3570F8 and sky blue
+guidelines/prompts-imagenes.html:133: #FF00FF | Line: [Background] Solid flat uniform unlit chroma key magenta #FF00FF filling the entire canvas edge to e
+guidelines/prompts-imagenes.html:136: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:136: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:136: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:143: #E6EEFE | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:143: #8EAFFB | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/prompts-imagenes.html:143: #628FF9 | Line: [Palette] Base material colors ONLY: white #FFFFFF and pale blue #E6EEFE for main volumes and top fa
+guidelines/sistema.html:10: #FFF12E | Line: <div style="background:#0950F6;color:#fff">blue-500<small>#0950F6 · máx</small></div><div style="bac
+guidelines/sistema.html:10: #FFF12E | Line: <div style="background:#0950F6;color:#fff">blue-500<small>#0950F6 · máx</small></div><div style="bac
+guidelines/sistema.html:11: #E6EEFE | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #E6EEFE | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #D6E4FE | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #D6E4FE | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #BACEFD | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #BACEFD | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #8EAFFB | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #8EAFFB | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #628FF9 | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #628FF9 | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #3570F8 | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:11: #3570F8 | Line: <div style="background:#E6EEFE">blue-50<small>#E6EEFE</small></div><div style="background:#D6E4FE">b
+guidelines/sistema.html:12: #F8FAFC | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/sistema.html:12: #F8FAFC | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/sistema.html:12: #DC2626 | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/sistema.html:12: #DC2626 | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/sistema.html:12: #16A34A | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/sistema.html:12: #F59E0B | Line: <div style="background:#F8FAFC;border:1px solid var(--border-subtle)">neutral-50<small>#F8FAFC</smal
+guidelines/tokens-reference.card.html:84: #3570F8 | Line: <tr><td>--color-brand-blue-400</td><td>#3570F8</td><td>Solo decorativo (anillos, hover borde). 4.35:
+guidelines/tokens-reference.card.html:85: #E6EEFE | Line: <tr><td>--color-brand-blue-50..300</td><td>#E6EEFE..#628FF9</td><td>Fondos suaves, bordes, bezel, ho
+guidelines/tokens-reference.card.html:85: #628FF9 | Line: <tr><td>--color-brand-blue-50..300</td><td>#E6EEFE..#628FF9</td><td>Fondos suaves, bordes, bezel, ho
+guidelines/tokens-reference.card.html:87: #FFF12E | Line: <tr><td>--color-brand-yellow-400</td><td>#FFF12E</td><td>Hover primario</td></tr>
+guidelines/tokens-reference.card.html:88: #FFF45C | Line: <tr><td>--color-brand-yellow-300</td><td>#FFF45C</td><td>Declarado; 1 uso</td></tr>
+guidelines/tokens-reference.card.html:90: #F8FAFC | Line: <tr><td>--color-neutral-50</td><td>#F8FAFC</td><td>Fondo alternativo (10 usos)</td></tr>
+guidelines/tokens-reference.card.html:91: #EF4444 | Line: <tr><td>--color-error-500</td><td>#EF4444</td><td>Asterisco requerido</td></tr>
+guidelines/tokens-reference.card.html:92: #DC2626 | Line: <tr><td>--color-error-600</td><td>#DC2626</td><td>Texto error (4.83:1)</td></tr>
+guidelines/tokens-reference.card.html:93: #16A34A | Line: <tr><td>--color-success-500</td><td>#16A34A</td><td>Solo ícono/borde (propuesto)</td></tr>
+guidelines/tokens-reference.card.html:94: #F59E0B | Line: <tr><td>--color-warning-500</td><td>#F59E0B</td><td>Solo ícono/borde (propuesto)</td></tr>
+guidelines/tokens-reference.card.html:95: #25D366 | Line: <tr><td>--color-social-whatsapp</td><td>#25D366</td><td>Solo iconografía</td></tr>
+guidelines/tokens-reference.card.html:96: #E1306C | Line: <tr><td>--color-social-instagram</td><td>#E1306C</td><td>Solo iconografía</td></tr>
+guidelines/tokens-reference.card.html:97: #1877F2 | Line: <tr><td>--color-social-facebook</td><td>#1877F2</td><td>Solo iconografía</td></tr>
+tokens/colors.css:3: #E6EEFE | Line: --color-brand-blue-50:#e6eefe;
+tokens/colors.css:4: #D6E4FE | Line: --color-brand-blue-75:#d6e4fe;
+tokens/colors.css:5: #BACEFD | Line: --color-brand-blue-100:#bacefd;
+tokens/colors.css:6: #8EAFFB | Line: --color-brand-blue-200:#8eaffb;
+tokens/colors.css:7: #628FF9 | Line: --color-brand-blue-300:#628ff9;
+tokens/colors.css:8: #3570F8 | Line: --color-brand-blue-400:#3570f8; /* solo decorativo: 4.35:1 sobre blanco, no para texto */
+tokens/colors.css:10: #FFF45C | Line: --color-brand-yellow-300:#fff45c;
+tokens/colors.css:11: #FFF12E | Line: --color-brand-yellow-400:#fff12e;
+tokens/colors.css:16: #F8FAFC | Line: /* Neutral (verificado: #f8fafc aparece 10 veces como fondo) */
+tokens/colors.css:17: #F8FAFC | Line: --color-neutral-50:#f8fafc;
+tokens/colors.css:19: #EF4444 | Line: --color-error-500:#ef4444;
+tokens/colors.css:20: #DC2626 | Line: --color-error-600:#dc2626;
+tokens/colors.css:21: #16A34A | Line: --color-success-500:#16a34a; /* propuesto */
+tokens/colors.css:22: #F59E0B | Line: --color-warning-500:#f59e0b; /* propuesto */
+tokens/colors.css:24: #25D366 | Line: --color-social-whatsapp:#25d366;
+tokens/colors.css:25: #1877F2 | Line: --color-social-facebook:#1877f2; /* no usar como fondo con texto blanco: 4.23:1 */
+tokens/colors.css:26: #E1306C | Line: --color-social-instagram:#e1306c;
+ui_kits/website/_ds_manifest.json:1: #1877F2 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #E6EEFE | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #D6E4FE | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #BACEFD | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #8EAFFB | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #628FF9 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #3570F8 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #FFF45C | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #FFF12E | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #F8FAFC | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #EF4444 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #DC2626 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #16A34A | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #F59E0B | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #25D366 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #1877F2 | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/_ds_manifest.json:1: #E1306C | Line: {"namespace":"EnvOsDosRuedasDesignSystem_ced708","components":[{"name":"ContactRow","sourcePath":"co
+ui_kits/website/components/blocks/ContactFormBlock.prompt.md:64: #16A34A | Line: - `var(--color-success-500)` — texto éxito (propuesto #16A34A)
+ui_kits/website/components/blocks/NetworkChannels.jsx:20: #25D366 | Line: color: "#25D366",
+ui_kits/website/components/blocks/NetworkChannels.jsx:28: #E1306C | Line: color: "#E1306C",
+ui_kits/website/components/blocks/NetworkChannels.jsx:36: #1877F2 | Line: color: "#1877F2",
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:51: #25D366 | Line: 1. **WhatsApp**: "Cotizaciones instantáneas..." / wa icon / "Chateá ahora" / `https://wa.me/54223660
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:52: #E1306C | Line: 2. **Instagram**: "Novedades de la flota..." / instagram icon / "Seguinos" / `https://www.instagram.
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:53: #1877F2 | Line: 3. **Facebook**: "Avisos de servicios..." / facebook icon / "Seguinos" / `https://www.facebook.com/e
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:61: #25D366 | Line: - `var(--color-social-whatsapp)` — `#25D366` (icon bg 10%, icon color)
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:62: #E1306C | Line: - `var(--color-social-instagram)` — `#E1306C`
+ui_kits/website/components/blocks/NetworkChannels.prompt.md:63: #1877F2 | Line: - `var(--color-social-facebook)` — `#1877F2`
+ui_kits/website/components/blocks/ServiceComparison.prompt.md:71: #16A34A | Line: - `var(--color-success-500)` — check icon (`#16A34A` propuesto)
+ui_kits/website/components/blocks/ServiceComparison.prompt.md:72: #EF4444 | Line: - `var(--color-error-500)` — cross icon (`#EF4444`)
+ui_kits/website/tokens/colors.css:3: #E6EEFE | Line: --color-brand-blue-50:#e6eefe;
+ui_kits/website/tokens/colors.css:4: #D6E4FE | Line: --color-brand-blue-75:#d6e4fe;
+ui_kits/website/tokens/colors.css:5: #BACEFD | Line: --color-brand-blue-100:#bacefd;
+ui_kits/website/tokens/colors.css:6: #8EAFFB | Line: --color-brand-blue-200:#8eaffb;
+ui_kits/website/tokens/colors.css:7: #628FF9 | Line: --color-brand-blue-300:#628ff9;
+ui_kits/website/tokens/colors.css:8: #3570F8 | Line: --color-brand-blue-400:#3570f8; /* solo decorativo: 4.35:1 sobre blanco, no para texto */
+ui_kits/website/tokens/colors.css:10: #FFF45C | Line: --color-brand-yellow-300:#fff45c;
+ui_kits/website/tokens/colors.css:11: #FFF12E | Line: --color-brand-yellow-400:#fff12e;
+ui_kits/website/tokens/colors.css:16: #F8FAFC | Line: /* Neutral (verificado: #f8fafc aparece 10 veces como fondo) */
+ui_kits/website/tokens/colors.css:17: #F8FAFC | Line: --color-neutral-50:#f8fafc;
+ui_kits/website/tokens/colors.css:19: #EF4444 | Line: --color-error-500:#ef4444;
+ui_kits/website/tokens/colors.css:20: #DC2626 | Line: --color-error-600:#dc2626;
+ui_kits/website/tokens/colors.css:21: #16A34A | Line: --color-success-500:#16a34a; /* propuesto */
+ui_kits/website/tokens/colors.css:22: #F59E0B | Line: --color-warning-500:#f59e0b; /* propuesto */
+ui_kits/website/tokens/colors.css:24: #25D366 | Line: --color-social-whatsapp:#25d366;
+ui_kits/website/tokens/colors.css:25: #1877F2 | Line: --color-social-facebook:#1877f2; /* no usar como fondo con texto blanco: 4.23:1 */
+ui_kits/website/tokens/colors.css:26: #E1306C | Line: --color-social-instagram:#e1306c;
+source/DESIGN-AUDIT.md:29: #3570F8 | Line: - `blue-700:#0950f6` es igual a `500`, `blue-800:#3570f8` es igual a `400` y `blue-900:#0950f6` es i
+source/DESIGN-AUDIT.md:31: #0B5ED7 | Line: - Consecuencia: no hay azul oscuro real para texto, hover ni fondos profundos. Esto explica los hex
+source/DESIGN-AUDIT.md:31: #0A4FC0 | Line: - Consecuencia: no hay azul oscuro real para texto, hover ni fondos profundos. Esto explica los hex
+source/DESIGN-AUDIT.md:31: #3B7BF8 | Line: - Consecuencia: no hay azul oscuro real para texto, hover ni fondos profundos. Esto explica los hex
+source/DESIGN-AUDIT.md:31: #D6E4FE | Line: - Consecuencia: no hay azul oscuro real para texto, hover ni fondos profundos. Esto explica los hex
+source/DESIGN-AUDIT.md:32: #0742C4 | Line: - Arreglo: definir una rampa real, por ejemplo `700:#0742c4`, `800:#06339a`, `900:#042470`, y reempl
+source/DESIGN-AUDIT.md:32: #06339A | Line: - Arreglo: definir una rampa real, por ejemplo `700:#0742c4`, `800:#06339a`, `900:#042470`, y reempl
+source/DESIGN-AUDIT.md:32: #042470 | Line: - Arreglo: definir una rampa real, por ejemplo `700:#0742c4`, `800:#06339a`, `900:#042470`, y reempl
+source/DESIGN-AUDIT.md:37: #3570F8 | Line: - `text-brand-blue-400` (`#3570f8`) sobre blanco da **4.35:1**, por debajo de AA para texto chico. T
+source/DESIGN-AUDIT.md:38: #1877F2 | Line: - Blanco sobre `#1877f2` (Facebook) da 4.23:1 y blanco sobre `#e1306c` (Instagram) da 4.34:1. Ambos
+source/DESIGN-AUDIT.md:38: #E1306C | Line: - Blanco sobre `#1877f2` (Facebook) da 4.23:1 y blanco sobre `#e1306c` (Instagram) da 4.34:1. Ambos
+source/DESIGN-AUDIT.md:51: #1877F2 | Line: 6. **Sombra "brutalista" repetida como valor arbitrario** `shadow-[3px_3px_0px_var(--color-brand-blu
+source/DESIGN-AUDIT.md:51: #FD1D1D | Line: 6. **Sombra "brutalista" repetida como valor arbitrario** `shadow-[3px_3px_0px_var(--color-brand-blu
+source/DESIGN-AUDIT.md:51: #E1306C | Line: 6. **Sombra "brutalista" repetida como valor arbitrario** `shadow-[3px_3px_0px_var(--color-brand-blu
+source/DESIGN-AUDIT.md:69: #833AB4 | Line: El sitio **no es genérico**. Hay identidad propia: tipografía Anton/Bebas en mayúsculas, azul eléctr
+source/DESIGN-AUDIT.md:92: #0A4FC0 | Line: - **Escala `brand-blue`:** `700`→`500` y `800`→`400` en HTML y CSS (mismo color, sin cambio visual).
+source/DESIGN-AUDIT.md:92: #083AA3 | Line: - **Escala `brand-blue`:** `700`→`500` y `800`→`400` en HTML y CSS (mismo color, sin cambio visual).
+source/DESIGN-AUDIT.md:92: #062D85 | Line: - **Escala `brand-blue`:** `700`→`500` y `800`→`400` en HTML y CSS (mismo color, sin cambio visual).
+source/DESIGN-AUDIT.md:92: #041F63 | Line: - **Escala `brand-blue`:** `700`→`500` y `800`→`400` en HTML y CSS (mismo color, sin cambio visual).
+source/DESIGN-AUDIT.md:92: #D6E4FE | Line: - **Escala `brand-blue`:** `700`→`500` y `800`→`400` en HTML y CSS (mismo color, sin cambio visual).
+source/DESIGN-AUDIT.md:93: #FFF12E | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:93: #BACEFD | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:93: #E6EEFE | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:93: #D6E4FE | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:93: #0A4FC0 | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:93: #3B7BF8 | Line: - **Hex literales → tokens:** las clases `[#0950F6]`, `[#FFEC01]`, `[#FFF12E]`, `[#BACEFD]`, `[#E6EE
+source/DESIGN-AUDIT.md:98: #0B5ED7 | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #1877F2 | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #E1306C | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #833AB4 | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #FD1D1D | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #F77737 | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/DESIGN-AUDIT.md:98: #F56040 | Line: - `#0b5ed7` (Facebook) y `#1877f2`/`#e1306c`/`#833ab4`/`#fd1d1d`/`#f77737`/`#f56040` son colores de
+source/home.html:37: #FFF12E | Line: --color-brand-yellow-400: #FFF12E;
+source/home.html:39: #E6EEFE | Line: --color-brand-blue-50: #E6EEFE;
+source/home.html:40: #D6E4FE | Line: --color-brand-blue-75: #D6E4FE;
+source/home.html:41: #BACEFD | Line: --color-brand-blue-100: #BACEFD;
+source/home.html:42: #8EAFFB | Line: --color-brand-blue-200: #8EAFFB;
+source/home.html:43: #628FF9 | Line: --color-brand-blue-300: #628FF9;
+source/home.html:44: #3570F8 | Line: --color-brand-blue-400: #3570F8;
+source/home.html:45: #FFF45C | Line: --color-brand-yellow-300: #FFF45C;
+source/home.html:46: #F8FAFC | Line: --color-neutral-50: #F8FAFC;
+source/home.html:47: #EF4444 | Line: --color-error-500: #EF4444;
+source/home.html:48: #DC2626 | Line: --color-error-600: #DC2626;
+source/home.html:49: #16A34A | Line: --color-success-500: #16A34A;
+source/home.html:50: #F59E0B | Line: --color-warning-500: #F59E0B;
+source/home.html:51: #25D366 | Line: --color-social-whatsapp: #25D366;
+source/home.html:52: #E1306C | Line: --color-social-instagram: #E1306C;
+source/home.html:53: #1877F2 | Line: --color-social-facebook: #1877F2;
