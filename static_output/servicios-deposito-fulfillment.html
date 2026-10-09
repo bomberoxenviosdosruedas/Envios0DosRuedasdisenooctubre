@@ -8,7 +8,7 @@
 <link rel="canonical" href="https://www.enviosdosruedas.com/servicios/deposito-fulfillment">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0950F6">
-<link rel="icon" href="../../assets/logo-envios-simplified.webp" type="image/webp">
+<link rel="icon" href="../assets/logo-envios-simplified.webp" type="image/webp">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
 <meta property="og:site_name" content="Envíos DosRuedas">
@@ -17,10 +17,10 @@
 <meta property="og:url" content="https://www.enviosdosruedas.com/servicios/deposito-fulfillment">
 <meta property="og:image" content="https://www.enviosdosruedas.com/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preload" as="font" type="font/woff2" href="../../public/fonts/Anton-Regular.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="../../public/fonts/BebasNeue-Regular.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="../../public/fonts/Outfit-VariableFont_wght.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="../../public/fonts/GeistMono-VariableFont_wght.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../public/fonts/Anton-Regular.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../public/fonts/BebasNeue-Regular.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../public/fonts/Outfit-VariableFont_wght.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="../public/fonts/GeistMono-VariableFont_wght.woff2" crossorigin>
 
 <style>
 /* fonts.css */
@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: "Anton";
-  src: url("../../public/fonts/Anton-Regular.woff2") format("woff2");
+  src: url("/fonts/Anton-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@
 
 @font-face {
   font-family: "Bebas Neue";
-  src: url("../../public/fonts/BebasNeue-Regular.woff2") format("woff2");
+  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@
 
 @font-face {
   font-family: "Outfit";
-  src: url("../../public/fonts/Outfit-VariableFont_wght.woff2") format("woff2-variations");
+  src: url("/fonts/Outfit-VariableFont_wght.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -54,7 +54,7 @@
 
 @font-face {
   font-family: "Geist Mono";
-  src: url("../../public/fonts/GeistMono-VariableFont_wght.woff2") format("woff2-variations");
+  src: url("/fonts/GeistMono-VariableFont_wght.woff2") format("woff2-variations");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -5586,8 +5586,8 @@ __ds_ns.SiteHeader = __ds_scope.SiteHeader;
 
 <script type="text/babel">
 // shared.jsx (raw JSX - transformed by Babel standalone, no imports from bundle)
-const { Button, Badge, Input, BezelCard, FeatureCard, PricingCard, Accordion, Timeline, ReviewCard, FilterChips, SiteHeader, SiteFooter, Marquee, Display, Lead, Eyebrow, Highlight, Section, SectionHead, PageHero, Steps, TagList, CtaBanner, QuantityStepper, CopyField, ContactRow, SocialCard, StatList, SkipLink } = window.EnvOsDosRuedasDesignSystem_ced708;
-const A = (p) => "../../assets/" + p;
+var { Button, Badge, Input, BezelCard, FeatureCard, PricingCard, Accordion, Timeline, ReviewCard, FilterChips, SiteHeader, SiteFooter, Marquee, Display, Lead, Eyebrow, Highlight, Section, SectionHead, PageHero, Steps, TagList, CtaBanner, QuantityStepper, CopyField, ContactRow, SocialCard, StatList, SkipLink, RadioCardGroup, BentoGrid, BentoGridItem, StepperHorizontal, StepperVertical, AddressAutocomplete, ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos, HeroAnimated, ServiceComparison, SurchargesPanel, QuoteGuide, ContactFormBlock, ConversionBanner, FaqSearch, TeamGrid, MissionVision, NetworkChannels, RecentPosts, MobileNav, SocialCarousel } = window.EnvOsDosRuedasDesignSystem_ced708 || {};
+const A = (p) => "../assets/" + p;
 const Icon = ({ d, size = 16, fill, style }) => <svg viewBox="0 0 24 24" width={size} height={size} fill={fill || "none"} stroke={fill ? "none" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={style}>{d.map((x, i) => <path key={i} d={x} />)}</svg>;
 const ICONS = {
   zap: ["M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"],
@@ -5616,7 +5616,7 @@ const SocialBand = () => <Section bg="var(--color-brand-blue-500)" style={{ bord
 </Section>;
 const CtaForm = ({ title = "Listo para escalar la logistica de tu e-commerce?", lead = "Olvidate de la gestion de paquetes en Mar del Plata. Completa tus datos y te respondemos por WhatsApp al instante." }) => { const [st, setSt] = React.useState("idle"); const [nm, setNm] = React.useState(""); const sub = (e) => { e.preventDefault(); if (!nm.trim()) return setSt("error"); setSt("loading"); setTimeout(() => setSt("done"), 1100); };
   return <Section bg="var(--color-brand-blue-500)"><BezelCard tone="light" hoverLift={false} padding={32} style={{ background: "rgba(255,255,255,.1)", border: "1px solid rgba(255,255,255,.25)" }}><div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 32, alignItems: "center" }}>
-    <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "flex-start" }}><Badge tone="muted" size="sm">Cotizacion inmediata</Badge><H2 style={{ fontSize: "2.25rem" }}>{title}</H2><p style={{ margin: 0, font: "400 14px/1.625 var(--font-sans)" }}>{lead}</p><p style={{ margin: 0, font: "700 12px/1.3 var(--font-mono)", letterSpacing: ".1em", textTransform: "uppercase" }}>Atencion comercial < 2 min</p></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "flex-start" }}><Badge tone="muted" size="sm">Cotizacion inmediata</Badge><H2 style={{ fontSize: "2.25rem" }}>{title}</H2><p style={{ margin: 0, font: "400 14px/1.625 var(--font-sans)" }}>{lead}</p><p style={{ margin: 0, font: "700 12px/1.3 var(--font-mono)", letterSpacing: ".1em", textTransform: "uppercase" }}>Atencion comercial &lt; 2 min</p></div>
     <form onSubmit={sub} noValidate style={{ background: "var(--color-brand-blue-50)", borderRadius: 20, border: "2px solid var(--color-brand-blue-100)", boxShadow: "var(--shadow-xl)", padding: 24, display: "flex", flexDirection: "column", gap: 14 }}>
       <Input label="Tu nombre" required placeholder="Nombre y apellido" value={nm} onChange={(e) => { setNm(e.target.value); setSt("idle"); }} error={st === "error" ? "Por favor, ingresa tu nombre." : undefined} />
       <Input label="Comercio" placeholder="Opcional" />
@@ -5627,40 +5627,40 @@ Object.assign(window, { Steps, TagList, CtaBanner, QuantityStepper, CopyField, C
   RadioCardGroup, BentoGrid, BentoGridItem, StepperHorizontal, StepperVertical, AddressAutocomplete,
   ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos,
   HeroAnimated, ServiceComparison, SurchargesPanel, QuoteGuide, ContactFormBlock, ConversionBanner, FaqSearch, TeamGrid, MissionVision, NetworkChannels, RecentPosts,
-  OptimizedHeader, OptimizedFooter, MobileNav, SocialCarousel
+  MobileNav, SocialCarousel
 });
 </script>
 
 <script type="text/babel">
 // App component (uses bundle components via correct names)
-const { SiteHeader: OptimizedHeader, SiteFooter: OptimizedFooter } = window.EnvOsDosRuedasDesignSystem_ced708;
+var { SiteHeader: OptimizedHeader, SiteFooter: OptimizedFooter } = window.EnvOsDosRuedasDesignSystem_ced708 || {};
   const nav = [
-    { label: "Inicio", href: "../../home.html", icon: "home" },
-    { label: "Servicios", href: "../servicios-envios-express.html", icon: "zap", dropdownItems: [
-      { label: "Todos los Servicios", href: "../servicios-envios-express.html", icon: "layout-grid" },
-      { label: "Envíos Express", href: "../servicios-envios-express.html", icon: "zap" },
-      { label: "Envíos LowCost", href: "../servicios-envios-lowcost.html", icon: "trending-down" },
-      { label: "Envíos Flex (MeLi)", href: "../servicios-enviosflex.html", icon: "clock" },
+    { label: "Inicio", href: "home.html", icon: "home" },
+    { label: "Servicios", href: "servicios-envios-express.html", icon: "zap", dropdownItems: [
+      { label: "Todos los Servicios", href: "servicios-envios-express.html", icon: "layout-grid" },
+      { label: "Envíos Express", href: "servicios-envios-express.html", icon: "zap" },
+      { label: "Envíos LowCost", href: "servicios-envios-lowcost.html", icon: "trending-down" },
+      { label: "Envíos Flex (MeLi)", href: "servicios-enviosflex.html", icon: "clock" },
       { label: "Cuenta Corriente Flexible", href: "servicios-empresas-cuenta-corriente.html", icon: "building-2" },
       { label: "E-commerce 24HS", href: "#ecommerce-24hs", icon: "package" },
       { label: "E-commerce Same Day", href: "servicios-deposito-fulfillment.html", icon: "store" },
     ]},
-    { label: "Nosotros", href: "../../nosotros-sobre-nosotros.html", icon: "info", dropdownItems: [
-      { label: "Sobre Nosotros", href: "../../nosotros-sobre-nosotros.html", icon: "info" },
-      { label: "Preguntas Frecuentes", href: "../../nosotros-preguntas-frecuentes.html", icon: "help-circle" },
-      { label: "Nuestras Redes", href: "../../nosotros-nuestras-redes.html", icon: "share-2" },
+    { label: "Nosotros", href: "nosotros-sobre-nosotros.html", icon: "info", dropdownItems: [
+      { label: "Sobre Nosotros", href: "nosotros-sobre-nosotros.html", icon: "info" },
+      { label: "Preguntas Frecuentes", href: "nosotros-preguntas-frecuentes.html", icon: "help-circle" },
+      { label: "Nuestras Redes", href: "nosotros-nuestras-redes.html", icon: "share-2" },
     ]},
-    { label: "Contacto", href: "../../contacto.html", icon: "mail" }
+    { label: "Contacto", href: "contacto.html", icon: "mail" }
   ];
   function App() {
     const [compact, setCompact] = React.useState(false);
     React.useEffect(() => { const f = () => setCompact(window.scrollY > 20); window.addEventListener("scroll", f, { passive: true }); return () => window.removeEventListener("scroll", f); }, []);
-    const go = (r) => { const routes = { home: "../../home.html", express: "../servicios-envios-express.html", lowcost: "../servicios-envios-lowcost.html", flex: "../servicios-enviosflex.html", emprendedores: "../../servicios-plan-emprendedores.html", empresas: "servicios-empresas-cuenta-corriente.html", contra: "../servicios-envios-contrareembolso.html", faq: "../../nosotros-preguntas-frecuentes.html", nosotros: "../../nosotros-sobre-nosotros.html", redes: "../../nosotros-nuestras-redes.html", contacto: "../../contacto.html" }; window.location.href = routes[r] || "../../home.html"; };
+    const go = (r) => { const routes = { home: "home.html", express: "servicios-envios-express.html", lowcost: "servicios-envios-lowcost.html", flex: "servicios-enviosflex.html", emprendedores: "servicios-plan-emprendedores.html", empresas: "servicios-empresas-cuenta-corriente.html", contra: "servicios-envios-contrareembolso.html", faq: "nosotros-preguntas-frecuentes.html", nosotros: "nosotros-sobre-nosotros.html", redes: "nosotros-nuestras-redes.html", contacto: "contacto.html" }; window.location.href = routes[r] || "home.html"; };
     return (
       <>
-        <OptimizedHeader logoSrc="../../../assets/logo-envios-simplified.webp" compact={false} onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} />
+        <OptimizedHeader logoSrc="../assets/logo-envios-simplified.webp" compact={false} onNavigate={() => {}} onCta={() => window.location.href = "cotizador.html"} />
         <main id="main" tabIndex={-1}><ServicioScreen go={go} service="deposito_fulfillment" /></main>
-        <OptimizedFooter onNavigate={() => {}} onCta={() => window.location.href = "../../cotizador.html"} social={<Social />} />
+        <OptimizedFooter onNavigate={() => {}} onCta={() => window.location.href = "cotizador.html"} social={<Social />} />
       </>
     );
   }

@@ -114,14 +114,16 @@ for html_file in html_files:
     # MobileNav, SocialCarousel, HeroAnimated, etc. are NOT in bundle
     app_script = app_script.replace(
         'const { OptimizedHeader, OptimizedFooter, Social } = window.EnvOsDosRuedasDesignSystem_ced708;',
-        'const { SiteHeader: OptimizedHeader, SiteFooter: OptimizedFooter } = window.EnvOsDosRuedasDesignSystem_ced708;'
+        'var { SiteHeader: OptimizedHeader, SiteFooter: OptimizedFooter } = window.EnvOsDosRuedasDesignSystem_ced708 || {};'
     )
     
-    # Determine asset prefixes
-    if "servicios-" in html_file or "nosotros-" in html_file:
-        asset_prefix = "../../"
-    else:
-        asset_prefix = "../"
+    # Normalize relative links to html files inside static_output/ (all files are in the same directory)
+    app_script = re.sub(r'(\.\./)+([a-zA-Z0-9_-]+\.html)', r'\2', app_script)
+    app_script = re.sub(r'(\.\./)+assets/', r'../assets/', app_script)
+    app_script = re.sub(r'(\.\./)+public/', r'../public/', app_script)
+    
+    # Asset prefix is always ../ relative to static_output/
+    asset_prefix = "../"
     
     new_html = f"""<!DOCTYPE html>
 <html lang="es" class="scroll-smooth" data-scroll-behavior="smooth">
@@ -179,6 +181,8 @@ for html_file in html_files:
     
     out_path = OUTPUT / html_file
     out_path.write_text(new_html, encoding="utf-8")
+    source_out = SOURCE / html_file
+    source_out.write_text(new_html, encoding="utf-8")
     print(f"  [OK] {html_file}")
 
 print(f"\nDone! Static files in: {OUTPUT}")

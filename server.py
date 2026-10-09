@@ -4,7 +4,7 @@ import socketserver
 import os
 
 PORT = 3000
-DIRECTORY = r"C:\Users\prest\proyectos\Envíos0DosRuedasdiseñooctubre\ui_kits\website"
+DIRECTORY = r"C:\Users\prest\proyectos\enviosdosruedasdisenooctubre\ui_kits\website"
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):

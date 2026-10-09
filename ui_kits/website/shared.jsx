@@ -1,5 +1,5 @@
-const { Button, Badge, Input, BezelCard, FeatureCard, PricingCard, Accordion, Timeline, ReviewCard, FilterChips, SiteHeader, SiteFooter, Marquee, Display, Lead, Eyebrow, Highlight, Section, SectionHead, PageHero, Steps, TagList, CtaBanner, QuantityStepper, CopyField, ContactRow, SocialCard, StatList, SkipLink } = window.EnvOsDosRuedasDesignSystem_ced708;
-const A = (p) => "../../assets/" + p;
+var { Button, Badge, Input, BezelCard, FeatureCard, PricingCard, Accordion, Timeline, ReviewCard, FilterChips, SiteHeader, SiteFooter, Marquee, Display, Lead, Eyebrow, Highlight, Section, SectionHead, PageHero, Steps, TagList, CtaBanner, QuantityStepper, CopyField, ContactRow, SocialCard, StatList, SkipLink, RadioCardGroup, BentoGrid, BentoGridItem, StepperHorizontal, StepperVertical, AddressAutocomplete, ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos, HeroAnimated, ServiceComparison, SurchargesPanel, QuoteGuide, ContactFormBlock, ConversionBanner, FaqSearch, TeamGrid, MissionVision, NetworkChannels, RecentPosts, MobileNav, SocialCarousel } = window.EnvOsDosRuedasDesignSystem_ced708 || {};
+const A = (p) => "../assets/" + p;
 const Icon = ({ d, size = 16, fill, style }) => <svg viewBox="0 0 24 24" width={size} height={size} fill={fill || "none"} stroke={fill ? "none" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={style}>{d.map((x, i) => <path key={i} d={x} />)}</svg>;
 const ICONS = {
   zap: ["M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"],
@@ -28,7 +28,7 @@ const SocialBand = () => <Section bg="var(--color-brand-blue-500)" style={{ bord
 </Section>;
 const CtaForm = ({ title = "Listo para escalar la logistica de tu e-commerce?", lead = "Olvidate de la gestion de paquetes en Mar del Plata. Completa tus datos y te respondemos por WhatsApp al instante." }) => { const [st, setSt] = React.useState("idle"); const [nm, setNm] = React.useState(""); const sub = (e) => { e.preventDefault(); if (!nm.trim()) return setSt("error"); setSt("loading"); setTimeout(() => setSt("done"), 1100); };
   return <Section bg="var(--color-brand-blue-500)"><BezelCard tone="light" hoverLift={false} padding={32} style={{ background: "rgba(255,255,255,.1)", border: "1px solid rgba(255,255,255,.25)" }}><div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))", gap: 32, alignItems: "center" }}>
-    <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "flex-start" }}><Badge tone="muted" size="sm">Cotizacion inmediata</Badge><H2 style={{ fontSize: "2.25rem" }}>{title}</H2><p style={{ margin: 0, font: "400 14px/1.625 var(--font-sans)" }}>{lead}</p><p style={{ margin: 0, font: "700 12px/1.3 var(--font-mono)", letterSpacing: ".1em", textTransform: "uppercase" }}>Atencion comercial < 2 min</p></div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "flex-start" }}><Badge tone="muted" size="sm">Cotizacion inmediata</Badge><H2 style={{ fontSize: "2.25rem" }}>{title}</H2><p style={{ margin: 0, font: "400 14px/1.625 var(--font-sans)" }}>{lead}</p><p style={{ margin: 0, font: "700 12px/1.3 var(--font-mono)", letterSpacing: ".1em", textTransform: "uppercase" }}>Atencion comercial &lt; 2 min</p></div>
     <form onSubmit={sub} noValidate style={{ background: "var(--color-brand-blue-50)", borderRadius: 20, border: "2px solid var(--color-brand-blue-100)", boxShadow: "var(--shadow-xl)", padding: 24, display: "flex", flexDirection: "column", gap: 14 }}>
       <Input label="Tu nombre" required placeholder="Nombre y apellido" value={nm} onChange={(e) => { setNm(e.target.value); setSt("idle"); }} error={st === "error" ? "Por favor, ingresa tu nombre." : undefined} />
       <Input label="Comercio" placeholder="Opcional" />
@@ -39,5 +39,5 @@ Object.assign(window, { Steps, TagList, CtaBanner, QuantityStepper, CopyField, C
   RadioCardGroup, BentoGrid, BentoGridItem, StepperHorizontal, StepperVertical, AddressAutocomplete,
   ServicePricing, DropoffCalculator, CoverageMap, NetworkLogos,
   HeroAnimated, ServiceComparison, SurchargesPanel, QuoteGuide, ContactFormBlock, ConversionBanner, FaqSearch, TeamGrid, MissionVision, NetworkChannels, RecentPosts,
-  OptimizedHeader, OptimizedFooter, MobileNav, SocialCarousel
+  MobileNav, SocialCarousel
 });
